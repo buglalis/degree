@@ -1,0 +1,81 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="y5NR5qdMvUlb6hSTPkb--1" target="y5NR5qdMvUlb6hSTPkb--2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="y5NR5qdMvUlb6hSTPkb--1" target="y5NR5qdMvUlb6hSTPkb--3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--1" value="Балансировка ячеек" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="y5NR5qdMvUlb6hSTPkb--2" target="y5NR5qdMvUlb6hSTPkb--7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--2" value="Пассивная" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="y5NR5qdMvUlb6hSTPkb--3" target="y5NR5qdMvUlb6hSTPkb--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="y5NR5qdMvUlb6hSTPkb--3" target="y5NR5qdMvUlb6hSTPkb--10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="190" />
+              <mxPoint x="330" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="y5NR5qdMvUlb6hSTPkb--3" target="y5NR5qdMvUlb6hSTPkb--11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--3" value="Активная" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--7" value="Резисторы" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--9" value="Ёмкости" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--10" value="Дроссели" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="200" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y5NR5qdMvUlb6hSTPkb--11" value="Преобразователи" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OP6BapFHQc78EoDglcqA-2" value="Одиночный &quot;летающий&lt;span style=&quot;background-color: initial;&quot;&gt;&quot; конденсатор&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6HV9Fr3d24v6WkUjmxJP-1" value="Один ряд&lt;div&gt;конденсаторов&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="330" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6HV9Fr3d24v6WkUjmxJP-2" value="Два ряда&lt;div&gt;конденсаторов&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="410" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6HV9Fr3d24v6WkUjmxJP-3" value="Различные комбинации вышеперечисленных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="490" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6HV9Fr3d24v6WkUjmxJP-4" value="Buck Boost" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="250" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6HV9Fr3d24v6WkUjmxJP-5" value="PowerPump" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="300" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n-X56-YEOPtIasaBdFyu-1" value="Forward&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Buck%20Boost%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%22250%22%20width%3D%22130%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n-X56-YEOPtIasaBdFyu-2" value="Biderectional" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n-X56-YEOPtIasaBdFyu-3" value="FlyBack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

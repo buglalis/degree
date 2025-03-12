@@ -1,0 +1,52 @@
+\documentclass{mipt-thesis-bs}
+\usepackage{mipt-thesis-biblatex}
+
+\addbibresource{main.bib}
+
+\title{Система мененджмента аккумуляторных батарей с активной балансировкой ячеек: современные проблемы, пути совершенствования, применение в авиастроении.}
+\author{Бортник С.\,М.}
+\supervisor{Киселёв И.\,С.}
+\studyprofile{Выпускная квалификационная работа бакалавра по направлению 09.03.01}
+\studyprofilename{<<Информатика и вычислительная техника>>}
+\groupnum{Б03-115У}
+\faculty{Факультет аэродинамики и летательной техники}
+\department{Кафедра силовых установок ЦИАМ}
+
+\input{notes/acronims}
+
+\begin{document}
+
+\input{notes/!plan}
+
+\frontmatter
+\titlecontents
+
+\chapter{Сокращения}
+\printacronyms[heading=none]
+
+\mainmatter
+
+\chapter{Введение}
+\input{notes/introdution}
+
+\chapter{Технический обзор}
+\input{notes/review}
+
+\chapter{Основная часть диплома}
+\input{notes/body.tex}
+
+\backmatter
+
+\chapter{\bibname}
+% \twocolumn
+\printbibliography[heading=none]
+% \onecolumn
+
+\chapter{Электронные ресурсы}
+
+\chapter{\appendixname}
+
+\input{notes/applications.tex}
+
+
+\end{document}

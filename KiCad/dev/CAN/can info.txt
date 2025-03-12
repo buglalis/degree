@@ -1,0 +1,7 @@
+Какая защита нужна для CAN:
+1) Защита от ESD (ElectroStatic Discharge) - защита от электростатического разряда.
+2) Электромагнитная совместимость ЕМС (electromagnetic compatibility)
+3) 
+
+Васянская статья про подключение 
+https://istarik.ru/blog/stm32/159.html
