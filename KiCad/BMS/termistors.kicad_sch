@@ -4433,7 +4433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73e14065-77e3-432f-9d77-76bdd453deb7")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 107.95 95.25 0)
 			(effects
 				(font
@@ -4515,7 +4515,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/3a9bc664-ddd4-401c-aeae-409c2a66a647"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)

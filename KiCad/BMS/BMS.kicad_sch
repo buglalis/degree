@@ -7353,7 +7353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae44c2db-d095-4f49-b907-9561a256b5d8")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 222.885 31.7499 0)
 			(effects
 				(font
@@ -7407,7 +7407,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7886,7 +7886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e08d188e-d979-4c1f-9f60-3a3c2404bc5d")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 198.12 33.0199 0)
 			(effects
 				(font
@@ -7940,7 +7940,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)

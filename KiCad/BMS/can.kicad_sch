@@ -3058,7 +3058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb31acb4-93b3-493f-bcf5-573e15b3426e")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 180.848 81.788 0)
 			(effects
 				(font
@@ -3115,7 +3115,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/b4d93d65-8b92-4fd1-a768-223386b4c558"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
