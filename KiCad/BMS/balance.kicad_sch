@@ -9901,7 +9901,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 307.34 90)
 			(effects
 				(font
@@ -11886,7 +11886,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 139.7 90)
 			(effects
 				(font
@@ -13385,7 +13385,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 349.25 90)
 			(effects
 				(font
@@ -15459,7 +15459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 97.79 90)
 			(effects
 				(font
@@ -17292,7 +17292,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 181.61 90)
 			(effects
 				(font
@@ -17992,7 +17992,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 265.43 90)
 			(effects
 				(font
@@ -20811,7 +20811,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 59.69 90)
 			(effects
 				(font
@@ -22934,7 +22934,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 226.06 223.52 90)
 			(effects
 				(font

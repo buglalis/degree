@@ -40964,7 +40964,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "2a7e8a1b-da91-4a65-b638-aaa5b95c61cc")
@@ -41783,7 +41783,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "e963bb39-b0ba-4b0b-b2fd-a02ae4f90c73")
@@ -43388,7 +43388,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "7f60a049-eb8f-4d7d-9908-4aad5bd039b8")
@@ -43908,7 +43908,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "c3825f98-a30e-4075-ad0c-b43dccebce10")
@@ -44428,7 +44428,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "ed41c948-9c75-4082-83d8-10c13c46f5da")
@@ -46332,7 +46332,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "18ca820f-bca6-4a61-9100-1b5d9e4139c6")
@@ -46852,7 +46852,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "098efe12-eb4d-4da3-afd1-4d42b98d641e")
@@ -49317,7 +49317,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "TL431A"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "28585e41-f241-442a-96d3-f759b958b121")
