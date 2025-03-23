@@ -1361,6 +1361,16 @@
 		)
 		(uuid "c826e946-efaf-4a17-924a-d21f9ee0f6cb")
 	)
+	(text "ПОСЧИТАТЬ КОНДЕНСАТОР И РЕЗИСТРЫ"
+		(exclude_from_sim no)
+		(at 99.06 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4ece305-f4f6-41e5-97fc-2628c684029e")
+	)
 	(text_box "POWER 5V\n"
 		(exclude_from_sim no)
 		(at 45.72 63.5 0)
