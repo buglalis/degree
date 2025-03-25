@@ -5837,7 +5837,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "Crystal KSE-7U08000MAB143ZA3"
 			(at 207.01 19.304 0)
 			(effects
 				(font
@@ -5994,7 +5994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "224d72ef-9bba-439f-8727-6a91257ee5b7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 259.08 45.72 0)
 			(effects
 				(font
@@ -6044,7 +6044,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7354,7 +7354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5eb3f4a-f7e2-4af2-8082-671014a942c9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 160.02 44.45 0)
 			(effects
 				(font
@@ -7404,7 +7404,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae44c2db-d095-4f49-b907-9561a256b5d8")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 222.885 31.7499 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7816,7 +7816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ffb89c-b61f-4dff-adc5-b5cd586f8c95")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 106.68 44.45 0)
 			(effects
 				(font
@@ -7866,7 +7866,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7952,7 +7952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e08d188e-d979-4c1f-9f60-3a3c2404bc5d")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 198.12 31.7499 0)
 			(effects
 				(font
@@ -8006,7 +8006,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)

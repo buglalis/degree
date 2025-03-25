@@ -3790,7 +3790,7 @@
 	)
 	(text_box "MULTIPLEXOR LEVEL CONVERTER "
 		(exclude_from_sim no)
-		(at 17.78 30.48 0)
+		(at -254 -205.74 0)
 		(size 171.45 99.06)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3911,7 +3911,7 @@
 	(text_box "BAT CONNECTOR"
 		(exclude_from_sim no)
 		(at 134.62 207.01 0)
-		(size 54.61 40.64)
+		(size 54.61 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3924,7 +3924,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d0feed64-4679-4a59-a18c-4cad657f01b9")
 	)
@@ -3997,6 +3997,12 @@
 		(uuid "0d8cccd5-5361-4dbf-a598-3b8756e02a32")
 	)
 	(junction
+		(at 209.55 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "100c9751-0fad-4da5-9cb8-0fca34a9b0af")
+	)
+	(junction
 		(at 248.92 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4051,12 +4057,6 @@
 		(uuid "24343a5a-f4a5-4a1a-8d87-b03bb1fffae7")
 	)
 	(junction
-		(at 92.71 306.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "281f29fd-d71f-4c26-9380-4a395000d5ac")
-	)
-	(junction
 		(at 248.92 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4103,6 +4103,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c3355fb-21d2-477b-b1f7-a26ba2b0ea2a")
+	)
+	(junction
+		(at 93.98 303.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c5e854b-3cf5-4046-9537-cfe61d0e702e")
+	)
+	(junction
+		(at 210.82 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3daae779-a9d8-46da-a5a2-a733c70d9655")
 	)
 	(junction
 		(at 152.4 101.6)
@@ -4195,6 +4207,18 @@
 		(uuid "569bb79c-e238-4158-bce6-5aa1527838a3")
 	)
 	(junction
+		(at 222.25 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c131c7-6b19-4f9f-b5ff-bb14907dabac")
+	)
+	(junction
+		(at 210.82 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5705df8d-2b04-4baa-a509-22b4c6e44911")
+	)
+	(junction
 		(at 248.92 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4267,6 +4291,12 @@
 		(uuid "6e6cd9a5-b1ef-4fb5-99ac-39c97a8b66ff")
 	)
 	(junction
+		(at 210.82 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714ee6a3-d1bf-4d00-9502-ab1e12797e88")
+	)
+	(junction
 		(at 233.68 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4295,12 +4325,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e88265b-21fe-4034-a8e7-9f2df9fd5092")
-	)
-	(junction
-		(at 92.71 303.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8156fbe8-cc2d-4d6e-bcb2-566522df083f")
 	)
 	(junction
 		(at 233.68 360.68)
@@ -4345,7 +4369,7 @@
 		(uuid "8c6f72e3-0dd8-4a7d-9fea-0c54543b624f")
 	)
 	(junction
-		(at 214.63 257.81)
+		(at 210.82 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90cd85bb-1ed1-40f3-8029-f61ba9be9033")
@@ -4387,13 +4411,13 @@
 		(uuid "9aa00f2a-d38c-40e8-95c3-15e725b35d4c")
 	)
 	(junction
-		(at 214.63 215.9)
+		(at 210.82 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d2ec85a-aef8-4d9a-94e0-f9797450d458")
 	)
 	(junction
-		(at 214.63 299.72)
+		(at 210.82 292.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f6e63bb-fcf7-4c94-b571-7e375e0b690f")
@@ -4417,7 +4441,7 @@
 		(uuid "a1b6c363-77b0-4d15-ad35-60c564911414")
 	)
 	(junction
-		(at 214.63 173.99)
+		(at 210.82 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5be2578-9cad-4c5a-b55e-db1b08d6dfb5")
@@ -4429,13 +4453,19 @@
 		(uuid "a69f8a9c-5bc1-48d6-a990-7fd4cf2ba66e")
 	)
 	(junction
+		(at 209.55 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9eedf02-0145-494a-91af-596fd140dded")
+	)
+	(junction
 		(at 248.92 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa2e349c-cf31-4726-ab88-d5aa45fc25f2")
 	)
 	(junction
-		(at 214.63 132.08)
+		(at 209.55 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab17d4ca-fc5c-4317-b525-7bd9d1dd676c")
@@ -4471,7 +4501,7 @@
 		(uuid "b4a3c827-4642-4467-be00-927d7ae02315")
 	)
 	(junction
-		(at 214.63 52.07)
+		(at 209.55 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5675c8a-9eb1-49cd-a511-0214e5f8e07d")
@@ -4493,6 +4523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b83dfdc1-e9eb-4122-bdbc-acd436379b99")
+	)
+	(junction
+		(at 210.82 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc62b33-0457-46c2-af3b-078bfbe3e763")
 	)
 	(junction
 		(at 233.68 264.16)
@@ -4555,7 +4591,7 @@
 		(uuid "d8b3ef00-19c4-43c1-9c0d-a0a820517d9b")
 	)
 	(junction
-		(at 214.63 90.17)
+		(at 209.55 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da566eff-4be2-4c8b-9cf5-ae992526fb9c")
@@ -4609,6 +4645,12 @@
 		(uuid "ef59ec10-9b3b-4383-8e4f-ec59680e9f9a")
 	)
 	(junction
+		(at 210.82 280.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f09dbe05-3a0a-4c44-846c-5b5e20459fbd")
+	)
+	(junction
 		(at 227.33 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4631,10 +4673,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe792f01-a247-40cf-8bd7-2f52c497d928")
-	)
-	(no_connect
-		(at 158.75 233.68)
-		(uuid "ca02e1a5-92ff-47b1-b220-c00cf7040e02")
 	)
 	(wire
 		(pts
@@ -4668,6 +4706,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 46.99) (xy 212.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0437e813-e9c1-4d3e-ae5b-2972c8ae7506")
+	)
+	(wire
+		(pts
 			(xy 55.88 308.61) (xy 64.77 308.61)
 		)
 		(stroke
@@ -4698,6 +4746,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 172.72) (xy 220.98 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05953ae1-e9cf-4b38-b6b1-58b74e11f485")
+	)
+	(wire
+		(pts
 			(xy 229.87 60.96) (xy 233.68 60.96)
 		)
 		(stroke
@@ -4708,7 +4766,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 71.12) (xy 227.33 71.12)
+			(xy 209.55 71.12) (xy 227.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4748,7 +4806,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 280.67) (xy 227.33 280.67)
+			(xy 210.82 280.67) (xy 227.33 280.67)
 		)
 		(stroke
 			(width 0)
@@ -4758,7 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 215.9) (xy 214.63 215.9)
+			(xy 208.28 207.01) (xy 210.82 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4886,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 227.33) (xy 214.63 227.33)
+			(xy 207.01 113.03) (xy 209.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbdd400-ccf2-40a6-892c-4e0b61cad585")
+	)
+	(wire
+		(pts
+			(xy 208.28 218.44) (xy 210.82 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4935,6 +5003,16 @@
 			(type default)
 		)
 		(uuid "148a9c55-3b04-48b1-a3b1-9813335c1cea")
+	)
+	(wire
+		(pts
+			(xy 222.25 36.83) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d31c2d-e6a2-44de-9fbe-fb26ecd138a8")
 	)
 	(wire
 		(pts
@@ -5068,6 +5146,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 41.91) (xy 212.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aebbb67-2f09-4c12-8235-6d70165eeeb0")
+	)
+	(wire
+		(pts
 			(xy 227.33 318.77) (xy 227.33 311.15)
 		)
 		(stroke
@@ -5088,7 +5176,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 238.76) (xy 227.33 238.76)
+			(xy 210.82 238.76) (xy 227.33 238.76)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 113.03) (xy 214.63 123.19)
+			(xy 209.55 113.03) (xy 209.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5128,7 +5216,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 214.63) (xy 214.63 215.9)
+			(xy 210.82 205.74) (xy 210.82 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5208,7 +5296,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 311.15) (xy 214.63 311.15)
+			(xy 208.28 303.53) (xy 210.82 303.53)
 		)
 		(stroke
 			(width 0)
@@ -5248,13 +5336,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 154.94) (xy 227.33 154.94)
+			(xy 223.52 167.64) (xy 223.52 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28055c61-486c-4506-b040-0db1304e7dca")
+		(uuid "284177e7-3468-450d-88ac-e38e4ba9fb9f")
 	)
 	(wire
 		(pts
@@ -5265,6 +5353,16 @@
 			(type default)
 		)
 		(uuid "2ae91462-14a8-472b-aabb-4afb947161dc")
+	)
+	(wire
+		(pts
+			(xy 93.98 306.07) (xy 93.98 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afc3d2b-630f-414f-8e58-6ae8ac69553d")
 	)
 	(wire
 		(pts
@@ -5288,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 215.9) (xy 214.63 217.17)
+			(xy 210.82 207.01) (xy 210.82 208.28)
 		)
 		(stroke
 			(width 0)
@@ -5358,7 +5456,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 303.53) (xy 92.71 303.53)
+			(xy 80.01 303.53) (xy 93.98 303.53)
 		)
 		(stroke
 			(width 0)
@@ -5378,7 +5476,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 306.07) (xy 99.06 306.07)
+			(xy 209.55 41.91) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34350431-2e01-4004-8748-2ff0fcd3e148")
+	)
+	(wire
+		(pts
+			(xy 80.01 308.61) (xy 97.79 308.61)
 		)
 		(stroke
 			(width 0)
@@ -5488,16 +5596,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 306.07) (xy 92.71 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39693242-4bb5-40d7-8cb4-6163028f84e0")
-	)
-	(wire
-		(pts
 			(xy 227.33 234.95) (xy 227.33 238.76)
 		)
 		(stroke
@@ -5518,6 +5616,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 36.83) (xy 222.25 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9dbcda-a43a-43dd-858c-1483f0545fde")
+	)
+	(wire
+		(pts
 			(xy 233.68 224.79) (xy 233.68 226.06)
 		)
 		(stroke
@@ -5535,16 +5643,6 @@
 			(type default)
 		)
 		(uuid "3c315e3e-a537-43d7-b3df-d4d5eb07a1f7")
-	)
-	(wire
-		(pts
-			(xy 214.63 36.83) (xy 227.33 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d88e552-0a08-4879-b2a0-7e08fa98ccbf")
 	)
 	(wire
 		(pts
@@ -5598,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 143.51) (xy 214.63 143.51)
+			(xy 207.01 142.24) (xy 209.55 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5625,6 +5723,16 @@
 			(type default)
 		)
 		(uuid "4013c377-f25e-41f0-af66-cf2571217a64")
+	)
+	(wire
+		(pts
+			(xy 208.28 238.76) (xy 210.82 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406d1887-0eb5-472a-8722-c26ce775509e")
 	)
 	(wire
 		(pts
@@ -5668,7 +5776,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 101.6) (xy 214.63 99.06)
+			(xy 209.55 100.33) (xy 209.55 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5685,6 +5793,16 @@
 			(type default)
 		)
 		(uuid "443dde98-0734-4660-9d9b-68e2fe3ebb19")
+	)
+	(wire
+		(pts
+			(xy 209.55 81.28) (xy 212.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d77c00-892c-4391-8c5a-4bd6602984f1")
 	)
 	(wire
 		(pts
@@ -5788,7 +5906,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 101.6) (xy 214.63 101.6)
+			(xy 207.01 100.33) (xy 209.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5808,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 227.33) (xy 214.63 224.79)
+			(xy 210.82 218.44) (xy 210.82 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5818,7 +5936,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 360.68) (xy 227.33 360.68)
+			(xy 210.82 360.68) (xy 227.33 360.68)
 		)
 		(stroke
 			(width 0)
@@ -5828,7 +5946,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 269.24) (xy 214.63 269.24)
+			(xy 208.28 260.35) (xy 210.82 260.35)
 		)
 		(stroke
 			(width 0)
@@ -5848,6 +5966,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 167.64) (xy 213.36 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7c18b3-12dc-4ef4-bcbf-6c0c17a9f0f3")
+	)
+	(wire
+		(pts
 			(xy 233.68 326.39) (xy 233.68 337.82)
 		)
 		(stroke
@@ -5858,7 +5986,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 214.63 132.08)
+			(xy 207.01 130.81) (xy 209.55 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5948,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 52.07) (xy 214.63 52.07)
+			(xy 207.01 54.61) (xy 209.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5958,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 63.5) (xy 214.63 63.5)
+			(xy 207.01 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5978,17 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 306.07) (xy 82.55 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d5cdd2-0319-4ed9-933e-b204f8c332e2")
-	)
-	(wire
-		(pts
-			(xy 214.63 143.51) (xy 214.63 140.97)
+			(xy 209.55 142.24) (xy 209.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6038,13 +6156,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 256.54) (xy 214.63 257.81)
+			(xy 210.82 247.65) (xy 210.82 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5c940d4a-863e-4828-ae07-057506dc6642")
+	)
+	(wire
+		(pts
+			(xy 222.25 125.73) (xy 219.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d837093-81dc-413a-b574-2992d8aa9a7d")
 	)
 	(wire
 		(pts
@@ -6088,6 +6216,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 130.81) (xy 209.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602362e4-15a4-44f3-a8bb-424f28eed082")
+	)
+	(wire
+		(pts
 			(xy 227.33 83.82) (xy 227.33 85.09)
 		)
 		(stroke
@@ -6098,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 185.42) (xy 214.63 182.88)
+			(xy 210.82 184.15) (xy 210.82 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6198,6 +6336,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 196.85) (xy 210.82 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64583512-2d7f-4f0e-8c70-f04b605e5ecf")
+	)
+	(wire
+		(pts
 			(xy 248.92 74.93) (xy 260.35 74.93)
 		)
 		(stroke
@@ -6248,16 +6396,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 50.8) (xy 214.63 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d6cc89-3686-481f-a8ec-192b6d80ed22")
-	)
-	(wire
-		(pts
 			(xy 248.92 284.48) (xy 260.35 284.48)
 		)
 		(stroke
@@ -6265,6 +6403,26 @@
 			(type default)
 		)
 		(uuid "68f86380-f91d-4916-8453-35fe26d09961")
+	)
+	(wire
+		(pts
+			(xy 209.55 125.73) (xy 212.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6988b621-a2a4-4d51-a492-3878e4cc5d9f")
+	)
+	(wire
+		(pts
+			(xy 222.25 81.28) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a330098-bd23-4a7f-a846-c6c5aa081757")
 	)
 	(wire
 		(pts
@@ -6398,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 173.99) (xy 214.63 173.99)
+			(xy 208.28 172.72) (xy 210.82 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6438,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 299.72) (xy 214.63 299.72)
+			(xy 208.28 292.1) (xy 210.82 292.1)
 		)
 		(stroke
 			(width 0)
@@ -6548,16 +6706,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 36.83) (xy 214.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79102d30-8e4d-4a3c-949e-1c9414f8898d")
-	)
-	(wire
-		(pts
 			(xy 149.86 67.31) (xy 149.86 71.12)
 		)
 		(stroke
@@ -6588,7 +6736,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 269.24) (xy 214.63 266.7)
+			(xy 210.82 260.35) (xy 210.82 257.81)
 		)
 		(stroke
 			(width 0)
@@ -6618,7 +6766,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 113.03) (xy 227.33 113.03)
+			(xy 209.55 113.03) (xy 227.33 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6635,6 +6783,16 @@
 			(type default)
 		)
 		(uuid "7b22c6ed-bf65-49af-b19d-f4205c87ae1a")
+	)
+	(wire
+		(pts
+			(xy 219.71 41.91) (xy 222.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b28bbf3-9836-4bcc-8007-d3d9dc420a2d")
 	)
 	(wire
 		(pts
@@ -6698,7 +6856,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 196.85) (xy 227.33 196.85)
+			(xy 210.82 196.85) (xy 227.33 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6768,7 +6926,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 154.94) (xy 214.63 165.1)
+			(xy 210.82 154.94) (xy 210.82 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6808,6 +6966,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 46.99) (xy 222.25 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85882cac-83ce-4b35-94d6-6e2e3a174d0c")
+	)
+	(wire
+		(pts
 			(xy 233.68 219.71) (xy 233.68 220.98)
 		)
 		(stroke
@@ -6818,7 +6986,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 185.42) (xy 214.63 185.42)
+			(xy 208.28 184.15) (xy 210.82 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6858,13 +7026,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 306.07) (xy 92.71 306.07)
+			(xy 212.09 86.36) (xy 209.55 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "887c81cf-a5f5-447c-81ad-a31fe38fe401")
+		(uuid "88af4c11-da8f-44fa-8f13-b9c846500cd6")
 	)
 	(wire
 		(pts
@@ -7068,6 +7236,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 326.39) (xy 210.82 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f4b120-68a4-4473-833e-f5a9e7ab9a15")
+	)
+	(wire
+		(pts
+			(xy 222.25 52.07) (xy 219.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952aa50c-2400-49e1-8e76-0c5091c496da")
+	)
+	(wire
+		(pts
 			(xy 248.92 180.34) (xy 248.92 182.88)
 		)
 		(stroke
@@ -7218,6 +7406,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 326.39) (xy 210.82 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe98d84-5131-430d-bb4d-a7f8edcb2dd9")
+	)
+	(wire
+		(pts
 			(xy 248.92 80.01) (xy 248.92 74.93)
 		)
 		(stroke
@@ -7225,16 +7423,6 @@
 			(type default)
 		)
 		(uuid "a066c219-30aa-4e75-bb1a-3a70e054c062")
-	)
-	(wire
-		(pts
-			(xy 214.63 130.81) (xy 214.63 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0cca46a-6cff-4a48-89f1-1d28c9e09669")
 	)
 	(wire
 		(pts
@@ -7248,7 +7436,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 90.17) (xy 214.63 90.17)
+			(xy 207.01 88.9) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7268,7 +7456,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 173.99) (xy 214.63 175.26)
+			(xy 210.82 172.72) (xy 210.82 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7355,6 +7543,16 @@
 			(type default)
 		)
 		(uuid "a86f78b7-5364-46f2-bf5e-5b62c6f90b89")
+	)
+	(wire
+		(pts
+			(xy 222.25 46.99) (xy 219.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87484e3-d6b1-4796-80fb-f8d4481b913d")
 	)
 	(wire
 		(pts
@@ -7548,7 +7746,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 299.72) (xy 214.63 300.99)
+			(xy 210.82 292.1) (xy 210.82 293.37)
 		)
 		(stroke
 			(width 0)
@@ -7638,7 +7836,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 71.12) (xy 214.63 81.28)
+			(xy 209.55 71.12) (xy 209.55 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7655,6 +7853,16 @@
 			(type default)
 		)
 		(uuid "b29c647a-723b-4095-9bb0-3bb9525d9825")
+	)
+	(wire
+		(pts
+			(xy 208.28 280.67) (xy 210.82 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c9338c-c9da-4c47-b36d-6ff3729904bb")
 	)
 	(wire
 		(pts
@@ -7718,7 +7926,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 289.56) (xy 92.71 303.53)
+			(xy 93.98 289.56) (xy 93.98 303.53)
 		)
 		(stroke
 			(width 0)
@@ -7768,7 +7976,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 298.45) (xy 214.63 299.72)
+			(xy 210.82 290.83) (xy 210.82 292.1)
 		)
 		(stroke
 			(width 0)
@@ -7795,6 +8003,16 @@
 			(type default)
 		)
 		(uuid "c1db9b70-fc37-4ea5-88cc-3550665e8c97")
+	)
+	(wire
+		(pts
+			(xy 213.36 172.72) (xy 210.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25f5747-3a55-43bd-b71a-b7d8f48aa735")
 	)
 	(wire
 		(pts
@@ -7848,7 +8066,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 52.07) (xy 214.63 53.34)
+			(xy 209.55 54.61) (xy 209.55 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7898,7 +8116,27 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 238.76) (xy 214.63 248.92)
+			(xy 210.82 154.94) (xy 227.33 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c9b328-8d38-41b5-b5cb-669fc526ab67")
+	)
+	(wire
+		(pts
+			(xy 222.25 81.28) (xy 219.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96a11c0-5e3d-49f8-a804-32d3f8c13f44")
+	)
+	(wire
+		(pts
+			(xy 210.82 238.76) (xy 210.82 240.03)
 		)
 		(stroke
 			(width 0)
@@ -7998,13 +8236,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 322.58) (xy 227.33 322.58)
+			(xy 208.28 322.58) (xy 210.82 322.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce6921a9-a710-4a9c-a1dc-4062ffbadf3f")
+	)
+	(wire
+		(pts
+			(xy 207.01 154.94) (xy 210.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceab0936-327f-47f9-8a11-87147d200f37")
 	)
 	(wire
 		(pts
@@ -8038,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 257.81) (xy 214.63 259.08)
+			(xy 210.82 248.92) (xy 210.82 250.19)
 		)
 		(stroke
 			(width 0)
@@ -8055,16 +8303,6 @@
 			(type default)
 		)
 		(uuid "d34194e4-2b58-4771-a982-7642af8c03a4")
-	)
-	(wire
-		(pts
-			(xy 214.63 172.72) (xy 214.63 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d368b146-5be8-4d1d-9814-ce09f01d996e")
 	)
 	(wire
 		(pts
@@ -8088,6 +8326,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 130.81) (xy 219.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54552c0-12fb-4c77-8515-afe6f8083592")
+	)
+	(wire
+		(pts
 			(xy 92.71 313.69) (xy 92.71 316.23)
 		)
 		(stroke
@@ -8098,13 +8346,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 214.63 60.96)
+			(xy 209.55 66.04) (xy 209.55 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5b91799-a205-4bad-ab80-f662cab3bd87")
+	)
+	(wire
+		(pts
+			(xy 210.82 322.58) (xy 227.33 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63eed56-9ecd-4920-84c6-7789274f3bf2")
 	)
 	(wire
 		(pts
@@ -8188,6 +8446,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 52.07) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e180975b-8755-4527-8730-4778b1a2bf71")
+	)
+	(wire
+		(pts
 			(xy 69.85 107.95) (xy 74.93 107.95)
 		)
 		(stroke
@@ -8208,7 +8476,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 257.81) (xy 214.63 257.81)
+			(xy 208.28 248.92) (xy 210.82 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8318,7 +8586,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 214.63 90.17)
+			(xy 212.09 52.07) (xy 209.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2e7a5c-b0b9-4336-9fdf-fc2f0e6ae3da")
+	)
+	(wire
+		(pts
+			(xy 209.55 86.36) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8328,7 +8606,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 90.17) (xy 214.63 91.44)
+			(xy 209.55 88.9) (xy 209.55 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8358,6 +8636,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 36.83) (xy 222.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd67a68-e473-4273-89cc-4451cb74b97f")
+	)
+	(wire
+		(pts
 			(xy 233.68 74.93) (xy 233.68 86.36)
 		)
 		(stroke
@@ -8375,6 +8663,16 @@
 			(type default)
 		)
 		(uuid "ee7750d8-c3e4-4813-93d4-2fd50c0c068b")
+	)
+	(wire
+		(pts
+			(xy 222.25 125.73) (xy 222.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb8f029-2b4e-40af-ace1-f33728c555b2")
 	)
 	(wire
 		(pts
@@ -8418,7 +8716,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 132.08) (xy 214.63 133.35)
+			(xy 209.55 130.81) (xy 209.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8448,7 +8746,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 311.15) (xy 214.63 308.61)
+			(xy 210.82 303.53) (xy 210.82 300.99)
 		)
 		(stroke
 			(width 0)
@@ -8478,13 +8776,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 280.67) (xy 214.63 290.83)
+			(xy 210.82 280.67) (xy 210.82 283.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3ad1683-f593-4907-ab3a-036455d1efe0")
+	)
+	(wire
+		(pts
+			(xy 90.17 306.07) (xy 93.98 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f86b72-1af4-4b9f-971a-6809b9c7e0c1")
 	)
 	(wire
 		(pts
@@ -8538,13 +8846,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 196.85) (xy 214.63 207.01)
+			(xy 210.82 196.85) (xy 210.82 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f6f540f6-e550-4fdf-8eac-cba6f9df3282")
+	)
+	(wire
+		(pts
+			(xy 222.25 86.36) (xy 219.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8459c78-ef5f-4934-88b3-7db3c23e40ab")
 	)
 	(wire
 		(pts
@@ -8555,6 +8873,26 @@
 			(type default)
 		)
 		(uuid "f8903b53-1c98-4940-9a88-366cbbe6b207")
+	)
+	(wire
+		(pts
+			(xy 80.01 306.07) (xy 82.55 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f35a45-8d44-4429-8479-3c5e130c692a")
+	)
+	(wire
+		(pts
+			(xy 207.01 71.12) (xy 209.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92ddad8-ded1-43e9-95af-934b3104a621")
 	)
 	(wire
 		(pts
@@ -8575,6 +8913,16 @@
 			(type default)
 		)
 		(uuid "fa16f151-dac4-4998-ae02-ebcb0232a118")
+	)
+	(wire
+		(pts
+			(xy 223.52 167.64) (xy 220.98 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8358eb-bb24-4461-8b50-3a05d411433e")
 	)
 	(wire
 		(pts
@@ -8720,27 +9068,6 @@
 			)
 		)
 	)
-	(global_label "U_BAT_2"
-		(shape input)
-		(at 158.75 231.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1893dba6-1e52-4eb9-90f9-53a4578921ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9634 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI1_SCK_ADC"
 		(shape input)
 		(at 87.63 156.21 180)
@@ -8759,27 +9086,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "U_BAT_1"
-		(shape input)
-		(at 166.37 231.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1bbd4e8c-e07f-4a1d-8368-10f710af01e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.1566 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8804,9 +9110,30 @@
 			)
 		)
 	)
-	(global_label "U_BAT_5"
+	(global_label "U_MES_1"
 		(shape input)
-		(at 203.2 173.99 180)
+		(at 160.02 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fe883eb-8fe5-46a1-a1a6-952abe04acc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "U_MES_5"
+		(shape input)
+		(at 208.28 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8816,7 +9143,7 @@
 		)
 		(uuid "26a67fa1-0c91-431d-ad6e-c4d5275b5934")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4134 173.99 0)
+			(at 197.0097 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,7 +9175,7 @@
 	)
 	(global_label "U_BAT_6"
 		(shape input)
-		(at 160.02 81.28 0)
+		(at 163.83 223.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8858,7 +9185,7 @@
 		)
 		(uuid "28662f89-44fa-4de1-877e-269fcae603fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 81.28 0)
+			(at 174.6166 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,28 +9196,28 @@
 	)
 	(global_label "U_BAT_4"
 		(shape input)
-		(at 160.02 86.36 0)
+		(at 156.21 220.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "297e4159-b057-48b0-bc52-eb76f7b90f91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 86.36 0)
+			(at 145.4234 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "U_BAT_2"
 		(shape input)
-		(at 203.2 299.72 180)
+		(at 208.28 280.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8900,7 +9227,28 @@
 		)
 		(uuid "2f795742-9a36-4eea-b88f-97d01b7d7a25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4134 299.72 0)
+			(at 197.4934 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U_BAT_3"
+		(shape input)
+		(at 208.28 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30aacddd-e275-4897-b002-bac774139894")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.4934 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,9 +9278,9 @@
 			)
 		)
 	)
-	(global_label "U_BAT_6"
+	(global_label "U_BAT_8"
 		(shape input)
-		(at 158.75 226.06 180)
+		(at 156.21 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8940,9 +9288,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3577cc6e-580b-41d4-82c8-dc7a4da01d06")
+		(uuid "36fee8ef-67bf-45bf-96cd-62b00199aeca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9634 226.06 0)
+			(at 145.4234 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,45 +9299,24 @@
 			)
 		)
 	)
-	(global_label "U_BAT_8"
-		(shape input)
-		(at 160.02 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36fee8ef-67bf-45bf-96cd-62b00199aeca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "U_BAT_5"
 		(shape input)
-		(at 160.02 83.82 0)
+		(at 156.21 215.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3922787e-653e-4adb-b822-87a4c648c0ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 83.82 0)
+			(at 145.4234 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -9006,6 +9333,27 @@
 		(uuid "3b83a2c9-4fa5-41d5-ad23-d3b29e7fbef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.1913 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "U_MES_8"
+		(shape input)
+		(at 160.02 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43c83560-2d53-4ed1-83bd-654045c428ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,7 +9385,7 @@
 	)
 	(global_label "U_BAT_7"
 		(shape input)
-		(at 160.02 78.74 0)
+		(at 163.83 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9047,7 +9395,7 @@
 		)
 		(uuid "4883ae63-f5dc-4b9f-8f92-53e102ec9973")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 78.74 0)
+			(at 174.6166 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,9 +9425,30 @@
 			)
 		)
 	)
+	(global_label "U_BAT_4"
+		(shape input)
+		(at 208.28 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49e9dfcc-6130-4598-a9b2-7dca2fe79564")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.4934 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 166.37 233.68 0)
+		(at 163.83 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9089,7 +9458,7 @@
 		)
 		(uuid "49f31285-56d6-4728-a215-c1387b155fa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.1566 233.68 0)
+			(at 174.6166 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9100,7 +9469,7 @@
 	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 212.09 311.15 180)
+		(at 208.28 303.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9110,7 +9479,7 @@
 		)
 		(uuid "49f79ec3-743e-464d-9347-022f5490deda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3034 311.15 0)
+			(at 197.4934 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,7 +9490,28 @@
 	)
 	(global_label "U_BAT_1"
 		(shape input)
-		(at 160.02 93.98 0)
+		(at 156.21 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cb4e77a-6282-427c-89b5-ef08e98e9fda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.4234 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U_MES_7"
+		(shape input)
+		(at 160.02 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9129,9 +9519,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4cb4e77a-6282-427c-89b5-ef08e98e9fda")
+		(uuid "5107abce-939e-44f5-97c5-ce9b3acbf438")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 93.98 0)
+			(at 171.2903 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9574,7 @@
 	)
 	(global_label "U_BAT_3"
 		(shape input)
-		(at 160.02 88.9 0)
+		(at 163.83 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9194,7 +9584,49 @@
 		)
 		(uuid "61553137-ea67-4560-9d45-8dfd8b0c341a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 88.9 0)
+			(at 174.6166 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "U_BAT_8"
+		(shape input)
+		(at 207.01 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64a27a79-52cb-4abf-ae72-1f21e696c5da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.2234 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U_MES_2"
+		(shape input)
+		(at 160.02 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e7604e4-a3f8-499e-a4ff-30c13a37f6c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9637,7 @@
 	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 212.09 269.24 180)
+		(at 208.28 260.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9215,7 +9647,7 @@
 		)
 		(uuid "72a4575f-5c4d-4095-a50d-7686a3bab18f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3034 269.24 0)
+			(at 197.4934 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,30 +9656,9 @@
 			)
 		)
 	)
-	(global_label "U_BAT_8"
+	(global_label "U_MES_4"
 		(shape input)
-		(at 158.75 223.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72a66434-f362-4564-b8e1-2635e5f3b76c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9634 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "U_BAT_4"
-		(shape input)
-		(at 203.2 215.9 180)
+		(at 208.28 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9257,7 +9668,7 @@
 		)
 		(uuid "730f88b3-44f2-4662-8a44-0a05531ee354")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4134 215.9 0)
+			(at 197.0097 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,6 +9690,48 @@
 		(uuid "73d9c3f0-917a-46ed-9418-a5332e70006d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.9206 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U_MES_3"
+		(shape input)
+		(at 160.02 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "784d875f-776b-4169-a4b2-3fb3edcbf973")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "U_BAT_5"
+		(shape input)
+		(at 207.01 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ca5ee9a-1e2f-453a-8eba-043fa5911dc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.2234 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9310,7 +9763,7 @@
 	)
 	(global_label "U_BAT_1"
 		(shape input)
-		(at 223.52 322.58 180)
+		(at 208.28 322.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9320,7 +9773,7 @@
 		)
 		(uuid "7f0832c4-46c1-4c6a-8d6a-1f20e1b1a9bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7334 322.58 0)
+			(at 197.4934 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,24 +9782,24 @@
 			)
 		)
 	)
-	(global_label "U_BAT_5"
+	(global_label "U_BAT_0"
 		(shape input)
-		(at 166.37 226.06 0)
+		(at 156.21 218.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "85877380-fa16-49e6-8a44-05c9301f8f99")
+		(uuid "87b064c8-8ede-4f91-979c-8be6a4199003")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.1566 226.06 0)
+			(at 145.4234 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -9392,9 +9845,9 @@
 			)
 		)
 	)
-	(global_label "U_BAT_8"
+	(global_label "U_MES_8"
 		(shape input)
-		(at 203.2 52.07 180)
+		(at 207.01 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9404,7 +9857,7 @@
 		)
 		(uuid "8e829f33-feb0-4a79-bfed-b0daa69abf8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4134 52.07 0)
+			(at 195.7397 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,9 +9887,9 @@
 			)
 		)
 	)
-	(global_label "U_BAT_3"
+	(global_label "U_MES_3"
 		(shape input)
-		(at 203.2 257.81 180)
+		(at 208.28 248.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9446,7 +9899,7 @@
 		)
 		(uuid "9ad70117-7a24-4d43-96f6-ba6fd6d026d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4134 257.81 0)
+			(at 197.0097 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,9 +9908,30 @@
 			)
 		)
 	)
+	(global_label "U_MES_4"
+		(shape input)
+		(at 160.02 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1abf661-6e11-498c-9765-8156e8b1bce3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 212.09 227.33 180)
+		(at 208.28 218.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9467,7 +9941,7 @@
 		)
 		(uuid "a4966248-fcd6-439a-bdd6-d96928424224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3034 227.33 0)
+			(at 197.4934 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,9 +9971,30 @@
 			)
 		)
 	)
+	(global_label "U_BAT_7"
+		(shape input)
+		(at 207.01 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8369286-8a81-413c-8a09-e1f6264aaf37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.2234 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 212.09 143.51 180)
+		(at 207.01 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9509,7 +10004,28 @@
 		)
 		(uuid "ac6ff2aa-0c69-450a-8068-b513bebb968e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3034 143.51 0)
+			(at 196.2234 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U_BAT_0"
+		(shape input)
+		(at 208.28 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afa42b6c-b9cd-4e2b-b716-e41cf07f2926")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.4934 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +10057,7 @@
 	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 212.09 101.6 180)
+		(at 207.01 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9551,7 +10067,7 @@
 		)
 		(uuid "b423316d-4b8e-4052-8e34-a71c324effae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3034 101.6 0)
+			(at 196.2234 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,9 +10076,30 @@
 			)
 		)
 	)
-	(global_label "U_BAT_4"
+	(global_label "U_MES_6"
 		(shape input)
-		(at 158.75 228.6 180)
+		(at 160.02 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5610faa-7cf7-42da-8de0-1bb80b6014a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "U_BAT_6"
+		(shape input)
+		(at 207.01 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9570,9 +10107,9 @@
 			)
 			(justify right)
 		)
-		(uuid "bb743b3a-e3e7-433f-a391-4445b235ddd7")
+		(uuid "b930ca3f-ab0e-4afe-8ca3-26e4886d6ac1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9634 228.6 0)
+			(at 196.2234 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +10120,7 @@
 	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 223.52 360.68 180)
+		(at 210.82 360.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9593,7 +10130,7 @@
 		)
 		(uuid "c005878f-0b4d-498f-a557-d1ce72e71042")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7334 360.68 0)
+			(at 200.0334 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,9 +10160,30 @@
 			)
 		)
 	)
+	(global_label "U_MES_2"
+		(shape input)
+		(at 208.28 292.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0ed3020-ff44-4ff4-9a47-8e690248e4f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.0097 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "U_BAT_2"
 		(shape input)
-		(at 160.02 91.44 0)
+		(at 163.83 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9635,28 +10193,7 @@
 		)
 		(uuid "c472f7fe-e362-48c8-b89f-ea9d68f4248b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8066 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "U_BAT_7"
-		(shape input)
-		(at 166.37 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c61fcfa2-15a4-45fe-b31e-7e38126238d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.1566 223.52 0)
+			(at 174.6166 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,9 +10222,9 @@
 			)
 		)
 	)
-	(global_label "U_BAT_7"
+	(global_label "U_MES_7"
 		(shape input)
-		(at 203.2 90.17 180)
+		(at 207.01 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9697,7 +10234,7 @@
 		)
 		(uuid "d329beb7-c7e8-400c-bf60-4a065b6cbb55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4134 90.17 0)
+			(at 195.7397 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,30 +10264,9 @@
 			)
 		)
 	)
-	(global_label "U_BAT_3"
-		(shape input)
-		(at 166.37 228.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc617826-783e-4b6d-8e48-fc653fd305ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.1566 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "U_BAT_0"
 		(shape input)
-		(at 212.09 63.5 180)
+		(at 207.01 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9760,7 +10276,28 @@
 		)
 		(uuid "dc863d4f-78b9-4c70-b7fe-f524c2f85a67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3034 63.5 0)
+			(at 196.2234 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U_MES_1"
+		(shape input)
+		(at 208.28 326.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de5b8e8b-9a50-4660-9e2e-3f0546dd1caf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.0097 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +10329,7 @@
 	)
 	(global_label "SPI1_SCK_ADC"
 		(shape input)
-		(at 99.06 306.07 0)
+		(at 97.79 308.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9802,7 +10339,7 @@
 		)
 		(uuid "e9dd0577-7864-47eb-963e-ec7121e7b177")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.6523 306.07 0)
+			(at 114.3823 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,9 +10348,9 @@
 			)
 		)
 	)
-	(global_label "U_BAT_6"
+	(global_label "U_MES_6"
 		(shape input)
-		(at 203.2 132.08 180)
+		(at 207.01 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9823,7 +10360,7 @@
 		)
 		(uuid "ef34bb58-7958-4133-8c56-c569d6a52a64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.4134 132.08 0)
+			(at 195.7397 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,24 +10369,24 @@
 			)
 		)
 	)
-	(global_label "U_BAT_0"
+	(global_label "U_MES_5"
 		(shape input)
-		(at 212.09 185.42 180)
+		(at 160.02 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "faa9c404-97a5-4165-9d60-f8be8bf8e142")
+		(uuid "f2d136ce-a999-4171-9d86-65db82a70dc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3034 185.42 0)
+			(at 171.2903 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -9904,7 +10441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0264fd70-1418-45bc-b78f-63f9eca47d6b")
-		(property "Reference" "R89"
+		(property "Reference" "R86"
 			(at 231.648 356.87 90)
 			(effects
 				(font
@@ -9994,7 +10531,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R89")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -10009,7 +10546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03313ea0-c13b-49d3-9af5-aa624f5ed40d")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 241.3 135.89 90)
 			(effects
 				(font
@@ -10097,7 +10634,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10105,15 +10642,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 294.64 180)
+		(at 210.82 287.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "044f7be0-cecf-4437-bb83-c03ae5b2cb03")
-		(property "Reference" "R75"
-			(at 212.598 295.91 90)
+		(property "Reference" "R72"
+			(at 208.788 288.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +10659,7 @@
 			)
 		)
 		(property "Value" "1m"
-			(at 214.63 296.418 90)
+			(at 210.82 288.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10668,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 294.64 90)
+			(at 212.598 287.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +10677,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 294.64 0)
+			(at 210.82 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10686,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 294.64 0)
+			(at 210.82 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10158,7 +10695,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 294.64 0)
+			(at 210.82 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,7 +10704,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 294.64 0)
+			(at 210.82 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +10713,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 294.64 0)
+			(at 210.82 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10722,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 294.64 0)
+			(at 210.82 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10739,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R75")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -10217,7 +10754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "068fb85d-7340-458f-9d34-b4f4342d05f1")
-		(property "Reference" "R71"
+		(property "Reference" "R70"
 			(at 231.648 273.05 90)
 			(effects
 				(font
@@ -10307,7 +10844,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R71")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -10397,7 +10934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a7e0be4-a4b1-4374-b7f4-e2f05c4a054c")
-		(property "Reference" "R78"
+		(property "Reference" "R76"
 			(at 231.648 300.99 90)
 			(effects
 				(font
@@ -10487,7 +11024,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R78")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -10607,7 +11144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0edc2177-b518-4177-968e-8d6787afab82")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 225.298 81.28 90)
 			(effects
 				(font
@@ -10697,7 +11234,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10817,7 +11354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10f11597-7d30-4fb7-b97e-b7821070bdab")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 231.648 147.32 90)
 			(effects
 				(font
@@ -10907,7 +11444,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -10922,7 +11459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1265bc11-1160-4686-a19e-ad21a115221f")
-		(property "Reference" "R84"
+		(property "Reference" "R82"
 			(at 225.298 332.74 90)
 			(effects
 				(font
@@ -11012,7 +11549,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R84")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -11176,7 +11713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14fcae2a-5304-4f97-8740-2faf35871118")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR057"
 			(at 92.71 322.58 0)
 			(effects
 				(font
@@ -11227,7 +11764,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR066")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11242,7 +11779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1543221e-4a34-472c-bd30-bb999bd3b213")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 246.888 147.32 90)
 			(effects
 				(font
@@ -11332,7 +11869,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -11347,7 +11884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "177766f8-68d1-48fd-804b-61b38aaa1906")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 38.1 207.01 0)
 			(effects
 				(font
@@ -11397,7 +11934,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11412,7 +11949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18109e6f-019a-4a9d-8046-09309f8886cf")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 41.91 166.37 90)
 			(effects
 				(font
@@ -11500,7 +12037,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -11508,15 +12045,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 95.25 180)
+		(at 209.55 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1820e5d8-ad88-41c1-97b5-a3d8064d4745")
-		(property "Reference" "R23"
-			(at 212.598 96.52 90)
+		(property "Reference" "R24"
+			(at 207.518 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11525,7 +12062,7 @@
 			)
 		)
 		(property "Value" "1m"
-			(at 214.63 97.028 90)
+			(at 209.55 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +12071,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 95.25 90)
+			(at 211.328 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11543,7 +12080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 95.25 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11552,7 +12089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 95.25 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,7 +12098,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 95.25 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +12107,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 95.25 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +12116,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 95.25 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +12125,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 95.25 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,7 +12142,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11722,7 +12259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bcff318-c8b1-430b-95e3-52e39ae9a177")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 231.648 105.41 90)
 			(effects
 				(font
@@ -11812,7 +12349,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11927,7 +12464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ed44eb7-4121-4eb2-bd13-58a1cb677126")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 41.91 246.38 0)
 			(effects
 				(font
@@ -11977,7 +12514,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11992,7 +12529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22affdd8-b72c-4da6-ac84-dc24a42b6b3d")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 225.298 91.44 90)
 			(effects
 				(font
@@ -12082,7 +12619,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -12097,7 +12634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "256d5df7-ddd6-4456-9652-2bc58dd62856")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 66.04 62.23 90)
 			(effects
 				(font
@@ -12185,7 +12722,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12266,7 +12803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "284d1671-6823-416a-8765-4f779aba77e5")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 231.648 133.35 90)
 			(effects
 				(font
@@ -12356,7 +12893,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -12549,7 +13086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d0c4f10-1426-46fa-80a0-f5e81659f98d")
-		(property "Reference" "R86"
+		(property "Reference" "R83"
 			(at 225.298 342.9 90)
 			(effects
 				(font
@@ -12639,7 +13176,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R86")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -12749,15 +13286,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 262.89 180)
+		(at 210.82 254 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "31565852-0c6e-4ffe-928c-ba7f1cd9256e")
-		(property "Reference" "R68"
-			(at 212.598 264.16 90)
+		(property "Reference" "R65"
+			(at 208.788 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12766,7 +13303,7 @@
 			)
 		)
 		(property "Value" "1m"
-			(at 214.63 264.668 90)
+			(at 210.82 255.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12775,7 +13312,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 262.89 90)
+			(at 212.598 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12784,7 +13321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 262.89 0)
+			(at 210.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12793,7 +13330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 262.89 0)
+			(at 210.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12802,7 +13339,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 262.89 0)
+			(at 210.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12811,7 +13348,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 262.89 0)
+			(at 210.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12820,7 +13357,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 262.89 0)
+			(at 210.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,7 +13366,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 262.89 0)
+			(at 210.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,7 +13383,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R68")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -13048,7 +13585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37c1fcff-44d1-4954-a46d-6e5066f35388")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 246.888 189.23 90)
 			(effects
 				(font
@@ -13138,7 +13675,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -13153,7 +13690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38074329-9df6-4007-8979-4f838feed4e7")
-		(property "Reference" "R81"
+		(property "Reference" "R79"
 			(at 57.15 311.15 90)
 			(effects
 				(font
@@ -13241,7 +13778,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R81")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -13249,15 +13786,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 220.98 180)
+		(at 215.9 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b6451b9-e7a6-432d-b830-5e7d08a3da96")
-		(property "Reference" "R57"
-			(at 212.598 222.25 90)
+		(uuid "39091830-cafd-4f9e-81b3-822a04506430")
+		(property "Reference" "R31"
+			(at 217.17 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13265,8 +13802,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
-			(at 214.63 222.758 90)
+		(property "Value" "2m"
+			(at 217.678 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13812,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 220.98 90)
+			(at 215.9 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 220.98 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 220.98 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,7 +13839,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 220.98 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13848,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 220.98 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13857,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 220.98 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,7 +13866,112 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 220.98 0)
+			(at 215.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9827377c-fb28-4213-b037-d23d1069c6e4")
+		)
+		(pin "2"
+			(uuid "ccb3d168-dcde-4da2-a165-58a9022c0e25")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b6451b9-e7a6-432d-b830-5e7d08a3da96")
+		(property "Reference" "R52"
+			(at 208.788 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1m"
+			(at 210.82 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 212.598 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 210.82 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 210.82 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 210.82 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 210.82 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13346,7 +13988,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R57")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -13361,7 +14003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fcc3037-f1ca-4750-9f36-e5d8f5f067c4")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 66.04 100.33 90)
 			(effects
 				(font
@@ -13449,7 +14091,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13530,7 +14172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40f6c0ae-69cd-4ba2-a805-8f6ce07e967f")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 225.298 133.35 90)
 			(effects
 				(font
@@ -13620,7 +14262,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -13873,111 +14515,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47843046-84b7-4c99-945f-730ec3afd947")
-		(property "Reference" "R20"
-			(at 212.598 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "6m"
-			(at 214.63 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "1000"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "1"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dec23aae-daec-470f-82a9-f5c987f37ce3")
-		)
-		(pin "2"
-			(uuid "cad1fb5d-24f1-48ff-9428-053caf672c6b")
-		)
-		(instances
-			(project "BMS"
-				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 233.68 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13985,7 +14522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "497ce59a-6500-45f5-8221-07e099f03245")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 231.648 67.31 90)
 			(effects
 				(font
@@ -14075,112 +14612,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dc8a1a4-c444-4a23-bd5c-077531b2c6fc")
-		(property "Reference" "R31"
-			(at 212.598 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5m"
-			(at 214.63 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "1000"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "1"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28246c5c-3679-4ecf-b5ce-4ebad035535e")
-		)
-		(pin "2"
-			(uuid "fa763055-ea0c-4745-80f8-33c9eee3333d")
-		)
-		(instances
-			(project "BMS"
-				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R31")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -14195,7 +14627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4df52317-11f4-4c8d-bc1b-2008ab7ed625")
-		(property "Reference" "R83"
+		(property "Reference" "R81"
 			(at 246.888 314.96 90)
 			(effects
 				(font
@@ -14285,7 +14717,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R83")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -14690,7 +15122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "540c5e83-9dea-4757-9252-4ca71b20121a")
-		(property "Reference" "R87"
+		(property "Reference" "R84"
 			(at 231.648 342.9 90)
 			(effects
 				(font
@@ -14780,7 +15212,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R87")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -14795,7 +15227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54a14e49-5bf2-4ef3-a557-9acc8781cf01")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 241.3 177.8 90)
 			(effects
 				(font
@@ -14883,7 +15315,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -14898,7 +15330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "586b2854-5eba-4294-a9c4-7b3739e51375")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 231.648 175.26 90)
 			(effects
 				(font
@@ -14988,7 +15420,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -15161,15 +15593,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 137.16 180)
+		(at 209.55 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5b4a3c8b-03a9-4375-95df-32a7dba8a064")
-		(property "Reference" "R34"
-			(at 212.598 138.43 90)
+		(property "Reference" "R35"
+			(at 207.518 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,7 +15610,7 @@
 			)
 		)
 		(property "Value" "1m"
-			(at 214.63 138.938 90)
+			(at 209.55 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15187,7 +15619,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 137.16 90)
+			(at 211.328 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,7 +15628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 137.16 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15205,7 +15637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 137.16 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15214,7 +15646,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 137.16 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15223,7 +15655,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 137.16 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15232,7 +15664,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 137.16 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15241,7 +15673,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 137.16 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15258,7 +15690,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -15273,7 +15705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bceb56a-e882-456d-a74a-915560fcbc4f")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 246.888 105.41 90)
 			(effects
 				(font
@@ -15363,7 +15795,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -15378,7 +15810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c2e4644-06d5-4d5d-a55b-678a7d9632f5")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 225.298 165.1 90)
 			(effects
 				(font
@@ -15468,7 +15900,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -15483,7 +15915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ccc8dad-3ed8-4bb5-84bf-c3da95fa502d")
-		(property "Reference" "R55"
+		(property "Reference" "R56"
 			(at 59.69 215.9 90)
 			(effects
 				(font
@@ -15571,7 +16003,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -15687,7 +16119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fd9e891-cf80-48c9-9824-dab8b388cf32")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 96.52 165.862 0)
 			(effects
 				(font
@@ -15759,7 +16191,7 @@
 		(instances
 			(project ""
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -15955,7 +16387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6683c936-a6c7-4d49-84ab-3b1d84190ed7")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 33.02 162.5599 90)
 			(effects
 				(font
@@ -16009,7 +16441,7 @@
 		(instances
 			(project ""
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -16024,7 +16456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68ae0afc-f6d6-488c-9cc1-f89702e067a4")
-		(property "Reference" "R69"
+		(property "Reference" "R68"
 			(at 241.3 261.62 90)
 			(effects
 				(font
@@ -16112,7 +16544,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R69")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -16127,7 +16559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a36ead4-b9b0-438b-84b1-d53e055404c3")
-		(property "Reference" "R82"
+		(property "Reference" "R80"
 			(at 231.648 314.96 90)
 			(effects
 				(font
@@ -16217,7 +16649,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R82")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -16468,7 +16900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f60078e-43e9-43e7-89bf-f1dbfcf862c6")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 59.69 245.11 0)
 			(effects
 				(font
@@ -16519,112 +16951,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fffaec0-5782-49e8-ac90-4af6001ddfd0")
-		(property "Reference" "R9"
-			(at 212.598 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7m"
-			(at 214.63 48.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "1000"
-			(at 214.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "1"
-			(at 214.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50c01510-ffc5-43a2-8c1b-6a6f121f58ea")
-		)
-		(pin "2"
-			(uuid "203bbb04-cff9-4352-963a-7d2d32fd7828")
-		)
-		(instances
-			(project "BMS"
-				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R9")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16838,16 +17165,16 @@
 	)
 	(symbol
 		(lib_id "user_lib:430451200")
-		(at 162.56 228.6 0)
+		(at 160.02 218.44 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73e14065-77e3-432f-9d77-76bdd453deb7")
 		(property "Reference" "J5"
-			(at 162.56 217.17 0)
+			(at 160.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16855,7 +17182,7 @@
 			)
 		)
 		(property "Value" "430451000"
-			(at 162.56 219.71 0)
+			(at 160.02 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16863,7 +17190,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal"
-			(at 162.56 229.87 0)
+			(at 160.02 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16872,7 +17199,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430451000_sd.pdf?inline%5C"
-			(at 162.56 229.87 0)
+			(at 160.02 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16881,7 +17208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 229.87 0)
+			(at 160.02 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16937,7 +17264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "741f1ccc-1131-4c06-ae39-934770c81137")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 225.298 43.18 90)
 			(effects
 				(font
@@ -17027,7 +17354,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17140,15 +17467,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 210.82 180)
+		(at 210.82 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7564ce0b-ec66-42ba-9794-6c6627ed0d03")
-		(property "Reference" "R51"
-			(at 212.598 212.09 90)
+		(property "Reference" "R50"
+			(at 208.788 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17157,7 +17484,7 @@
 			)
 		)
 		(property "Value" "3m"
-			(at 214.63 212.598 90)
+			(at 210.82 203.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17166,7 +17493,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 210.82 90)
+			(at 212.598 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17175,7 +17502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 210.82 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17184,7 +17511,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 210.82 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17193,7 +17520,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 210.82 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17202,7 +17529,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 210.82 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17538,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 210.82 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17220,7 +17547,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 210.82 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17237,7 +17564,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R51")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -17252,7 +17579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75a102ff-7f06-4d33-8e82-7853a18729b2")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR050"
 			(at 76.2 237.49 0)
 			(effects
 				(font
@@ -17303,7 +17630,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR067")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17380,6 +17707,111 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 215.9 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d20783-9707-40b3-aff6-ef10101f8440")
+		(property "Reference" "R32"
+			(at 217.17 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3m"
+			(at 217.17 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f912503-d708-4b9f-98d3-360aebb08902")
+		)
+		(pin "2"
+			(uuid "9903d462-8313-4946-889f-1c112c1683f8")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 248.92 355.6 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17387,7 +17819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "794f8c5b-03d8-46b0-8e07-f7ff02993e0f")
-		(property "Reference" "R90"
+		(property "Reference" "R87"
 			(at 246.888 356.87 90)
 			(effects
 				(font
@@ -17477,7 +17909,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R90")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -17485,15 +17917,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 168.91 180)
+		(at 217.17 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7b34f45c-6fa9-41fe-b7b6-cc1a07359abf")
-		(property "Reference" "R42"
-			(at 212.598 170.18 90)
+		(property "Reference" "R41"
+			(at 218.44 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17501,8 +17933,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4m"
-			(at 214.63 170.688 90)
+		(property "Value" "1m"
+			(at 218.948 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17511,7 +17943,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 168.91 90)
+			(at 217.17 165.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17520,7 +17952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 168.91 0)
+			(at 217.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17529,7 +17961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 168.91 0)
+			(at 217.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17538,7 +17970,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 168.91 0)
+			(at 217.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17547,7 +17979,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 168.91 0)
+			(at 217.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17556,7 +17988,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 168.91 0)
+			(at 217.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17565,7 +17997,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 168.91 0)
+			(at 217.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,7 +18014,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R42")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -17765,7 +18197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c7b03f3-d571-4df7-958b-4ca643ffb942")
-		(property "Reference" "R72"
+		(property "Reference" "R71"
 			(at 246.888 273.05 90)
 			(effects
 				(font
@@ -17855,7 +18287,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R72")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -18050,7 +18482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81309540-6d91-4bfd-b979-8dad8ae19317")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 231.648 91.44 90)
 			(effects
 				(font
@@ -18140,7 +18572,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18155,7 +18587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84e9b6a0-9617-4bee-bfbb-103f76d0b73c")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 246.888 67.31 90)
 			(effects
 				(font
@@ -18245,7 +18677,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -18360,7 +18792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8607dd9b-a859-41b0-a2df-21c63418cc2d")
-		(property "Reference" "R77"
+		(property "Reference" "R75"
 			(at 225.298 300.99 90)
 			(effects
 				(font
@@ -18450,7 +18882,112 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R77")
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8707982e-ee8f-4bc6-9f4e-d7f2bf4422bd")
+		(property "Reference" "R7"
+			(at 217.17 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1m"
+			(at 217.678 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27a22279-60b6-4789-aa4f-19d75cae2596")
+		)
+		(pin "2"
+			(uuid "15e40437-bd66-4345-901c-f92e47f145da")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18631,6 +19168,111 @@
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
 					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cbbd59f-8faf-4adf-a324-f5abbfea0958")
+		(property "Reference" "R20"
+			(at 217.17 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3m"
+			(at 217.678 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2776512-f9ec-4dfe-b509-e4ee71544bf3")
+		)
+		(pin "2"
+			(uuid "0ee660ee-2001-4b85-b2df-3126ba18ac16")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -18909,6 +19551,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 215.9 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "932be186-50b4-439a-92dc-29ae6d37d2d6")
+		(property "Reference" "R10"
+			(at 217.17 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3m"
+			(at 217.17 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2050f15-79ee-47bb-ba70-a4c414d18348")
+		)
+		(pin "2"
+			(uuid "5026b46c-5ad8-4e9b-9810-b9a93eb87fa7")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 257.81 182.88 0)
 		(unit 1)
@@ -19019,7 +19766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95df1fb1-d1ee-4dd7-8b51-709cdde75490")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 225.298 175.26 90)
 			(effects
 				(font
@@ -19109,7 +19856,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -19297,7 +20044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98fada7a-2d20-4840-986e-4b002c79c489")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 102.87 175.26 0)
 			(effects
 				(font
@@ -19348,7 +20095,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -19517,7 +20264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6765720-5d43-4369-a751-ba215b347515")
-		(property "Reference" "R80"
+		(property "Reference" "R78"
 			(at 241.3 303.53 90)
 			(effects
 				(font
@@ -19605,7 +20352,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R80")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -19725,7 +20472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8d72112-2e55-42f8-ac4f-3c617eede19f")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 176.53 156.2099 0)
 			(effects
 				(font
@@ -19794,7 +20541,7 @@
 		(instances
 			(project ""
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -19809,7 +20556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8e36801-1b0a-439c-bb85-8ed315ef1b67")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 231.648 53.34 90)
 			(effects
 				(font
@@ -19899,7 +20646,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -19914,7 +20661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac386891-3304-4a6a-a1d2-af537434de9e")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 241.3 93.98 90)
 			(effects
 				(font
@@ -20002,7 +20749,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -20017,7 +20764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae25ec11-9c0b-49f1-b3cb-c1520031dbde")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 225.298 123.19 90)
 			(effects
 				(font
@@ -20107,7 +20854,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -20115,7 +20862,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 92.71 289.56 0)
+		(at 93.98 289.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20123,7 +20870,7 @@
 		(dnp no)
 		(uuid "b1ad0baa-28f4-46e6-b709-12305e676af9")
 		(property "Reference" "#PWR055"
-			(at 92.71 293.37 0)
+			(at 93.98 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20132,7 +20879,7 @@
 			)
 		)
 		(property "Value" "5V_ADC"
-			(at 89.154 284.48 0)
+			(at 90.424 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20141,7 +20888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 289.56 0)
+			(at 93.98 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20150,7 +20897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 289.56 0)
+			(at 93.98 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20159,7 +20906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 92.71 289.56 0)
+			(at 93.98 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20283,15 +21030,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 179.07 180)
+		(at 210.82 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6443a3b-7931-470f-813a-4debd98aba81")
-		(property "Reference" "R45"
-			(at 212.598 180.34 90)
+		(property "Reference" "R46"
+			(at 208.788 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20300,7 +21047,7 @@
 			)
 		)
 		(property "Value" "1m"
-			(at 214.63 180.848 90)
+			(at 210.82 179.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20309,7 +21056,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 179.07 90)
+			(at 212.598 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20318,7 +21065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 179.07 0)
+			(at 210.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20327,7 +21074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 179.07 0)
+			(at 210.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20336,7 +21083,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 179.07 0)
+			(at 210.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20345,7 +21092,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 179.07 0)
+			(at 210.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20354,7 +21101,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 179.07 0)
+			(at 210.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20363,7 +21110,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 179.07 0)
+			(at 210.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20380,7 +21127,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -20396,7 +21143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b77de4e9-aaa6-4fd0-b7d0-1fe383d9a4f3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 76.2 203.2 0)
 			(effects
 				(font
@@ -20447,7 +21194,112 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR047")
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b79d46bf-20d1-4ada-b39a-c3e517c884ca")
+		(property "Reference" "R21"
+			(at 217.17 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3m"
+			(at 217.17 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9319a03-124e-44e6-a673-e038febde3a0")
+		)
+		(pin "2"
+			(uuid "7cd89dfc-ded1-4586-8ad4-15d616f1a3db")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20462,7 +21314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7dcdeb2-1bb8-4362-89ed-45445b98f15b")
-		(property "Reference" "R49"
+		(property "Reference" "R51"
 			(at 225.298 207.01 90)
 			(effects
 				(font
@@ -20552,7 +21404,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R49")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -20672,7 +21524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb1832df-170b-474c-9a15-46f05701f54d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 156.21 203.2 0)
 			(effects
 				(font
@@ -20723,7 +21575,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -20738,7 +21590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc320de9-6c8e-4636-84bb-22a15afb38e6")
-		(property "Reference" "R60"
+		(property "Reference" "R61"
 			(at 225.298 248.92 90)
 			(effects
 				(font
@@ -20828,7 +21680,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R60")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -20943,7 +21795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf57f673-4518-4bc1-8464-24aea5f4182f")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 225.298 53.34 90)
 			(effects
 				(font
@@ -21033,7 +21885,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -21285,8 +22137,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cab82f4e-6aa3-4f8a-86ee-8fa90d499a12")
-		(property "Reference" "R76"
-			(at 86.36 308.61 90)
+		(property "Reference" "R77"
+			(at 91.44 304.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21373,7 +22225,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R76")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -21456,15 +22308,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 57.15 180)
+		(at 209.55 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cf964654-f5bf-488e-bc1a-45a6f2d93295")
-		(property "Reference" "R12"
-			(at 212.598 58.42 90)
+		(property "Reference" "R15"
+			(at 207.518 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21473,7 +22325,7 @@
 			)
 		)
 		(property "Value" "1m"
-			(at 214.63 58.928 90)
+			(at 209.55 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21482,7 +22334,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 57.15 90)
+			(at 211.328 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21491,7 +22343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 57.15 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21500,7 +22352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 57.15 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21509,7 +22361,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 57.15 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21518,7 +22370,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 57.15 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21527,7 +22379,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 57.15 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21536,7 +22388,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 57.15 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21553,7 +22405,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -21561,15 +22413,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 252.73 180)
+		(at 210.82 243.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d2dc8fd7-ce3f-432c-9cc3-0fd0478fb5c9")
-		(property "Reference" "R65"
-			(at 212.598 254 90)
+		(property "Reference" "R60"
+			(at 208.788 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21578,7 +22430,7 @@
 			)
 		)
 		(property "Value" "2m"
-			(at 214.63 254.508 90)
+			(at 210.82 245.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21587,7 +22439,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 252.73 90)
+			(at 212.598 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21596,7 +22448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 252.73 0)
+			(at 210.82 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21605,7 +22457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 252.73 0)
+			(at 210.82 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21614,7 +22466,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 252.73 0)
+			(at 210.82 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21623,7 +22475,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 252.73 0)
+			(at 210.82 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21632,7 +22484,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 252.73 0)
+			(at 210.82 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21641,7 +22493,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 252.73 0)
+			(at 210.82 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21658,7 +22510,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R65")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -21666,15 +22518,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 304.8 180)
+		(at 215.9 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6341980-e106-46ca-8f28-5edc12b9b7b1")
-		(property "Reference" "R79"
-			(at 212.598 306.07 90)
+		(uuid "d43130f2-ded0-4f5a-acdd-5fd334fad851")
+		(property "Reference" "R9"
+			(at 217.17 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21682,8 +22534,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
-			(at 214.63 306.578 90)
+		(property "Value" "3m"
+			(at 217.678 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21692,7 +22544,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 304.8 90)
+			(at 215.9 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21701,7 +22553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 304.8 0)
+			(at 215.9 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21710,7 +22562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 304.8 0)
+			(at 215.9 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21719,7 +22571,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 214.63 304.8 0)
+			(at 215.9 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21728,7 +22580,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 214.63 304.8 0)
+			(at 215.9 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21737,7 +22589,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 214.63 304.8 0)
+			(at 215.9 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21746,7 +22598,112 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 214.63 304.8 0)
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54b23bf2-42f5-404d-88d4-3ae3d923aca8")
+		)
+		(pin "2"
+			(uuid "8207accd-8208-4222-8ad0-9819c9a8ec24")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 297.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6341980-e106-46ca-8f28-5edc12b9b7b1")
+		(property "Reference" "R74"
+			(at 208.788 298.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1m"
+			(at 210.82 298.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 212.598 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 210.82 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 210.82 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 210.82 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 210.82 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21763,7 +22720,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R79")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -22031,7 +22988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d94aa906-9a27-4395-920a-f1031bdbaedf")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 33.02 154.9401 90)
 			(effects
 				(font
@@ -22085,7 +23042,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -22100,7 +23057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dba95ef5-965d-4577-8adf-eafe9a03bec6")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 41.91 146.05 90)
 			(effects
 				(font
@@ -22188,7 +23145,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -22203,7 +23160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dce9228e-d34f-404a-a83a-64d94970696d")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 231.648 189.23 90)
 			(effects
 				(font
@@ -22293,7 +23250,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -22545,7 +23502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e363a664-b947-44b6-a667-e3c9227644e7")
-		(property "Reference" "R56"
+		(property "Reference" "R57"
 			(at 241.3 218.44 90)
 			(effects
 				(font
@@ -22633,7 +23590,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R56")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -22648,7 +23605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e73b39e6-8293-459e-8e03-a448026b0a36")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 66.04 105.41 90)
 			(effects
 				(font
@@ -22736,7 +23693,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -22954,7 +23911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8f76f18-a33c-44b2-8c76-d3edeb7ced77")
-		(property "Reference" "R52"
+		(property "Reference" "R53"
 			(at 59.69 210.82 90)
 			(effects
 				(font
@@ -23042,7 +23999,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -23057,7 +24014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea1d7d70-9456-4dd2-8e00-399fb677e5ed")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 49.53 177.8 0)
 			(effects
 				(font
@@ -23108,7 +24065,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -23189,7 +24146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb8ce075-2182-4ba8-bf59-b16e921662d5")
-		(property "Reference" "R54"
+		(property "Reference" "R55"
 			(at 231.648 217.17 90)
 			(effects
 				(font
@@ -23279,7 +24236,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R54")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -23406,7 +24363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef301b50-4b6d-47c5-93ae-642baa93cf54")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 225.298 217.17 90)
 			(effects
 				(font
@@ -23496,7 +24453,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -23639,6 +24596,111 @@
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f16a2e68-c547-413b-bef9-e2b82b9db4d1")
+		(property "Reference" "R43"
+			(at 218.44 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3m"
+			(at 218.44 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.17 170.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fbd9ac6-fcea-48e8-9016-1274d99bb2b0")
+		)
+		(pin "2"
+			(uuid "b0a0799e-8d7f-4f3b-ac13-b782b6e52803")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -23819,7 +24881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdcdb00d-9cf3-4b11-bb99-6479c08397d4")
-		(property "Reference" "R88"
+		(property "Reference" "R85"
 			(at 241.3 345.44 90)
 			(effects
 				(font
@@ -23907,7 +24969,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R88")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -23922,7 +24984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe00321a-bb90-4a53-b457-bf64f4587d39")
-		(property "Reference" "R70"
+		(property "Reference" "R69"
 			(at 100.33 262.89 90)
 			(effects
 				(font
@@ -24010,7 +25072,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R70")
+					(reference "R69")
 					(unit 1)
 				)
 			)
