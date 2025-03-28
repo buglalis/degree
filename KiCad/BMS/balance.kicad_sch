@@ -3790,7 +3790,7 @@
 	)
 	(text_box "MULTIPLEXOR LEVEL CONVERTER "
 		(exclude_from_sim no)
-		(at -254 -205.74 0)
+		(at 17.78 30.48 0)
 		(size 171.45 99.06)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -12747,7 +12747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V0"
 			(at 162.56 139.7 0)
 			(effects
 				(font
@@ -16674,7 +16674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V0"
 			(at 135.89 147.32 0)
 			(effects
 				(font
