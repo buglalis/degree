@@ -5,6 +5,206 @@
 	(uuid "43e81afa-0712-4960-b371-1964bc8e3a86")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1391,6 +1591,26 @@
 		)
 		(uuid "5d468f88-b4c5-4afc-ad73-c2904e39c0d6")
 	)
+	(text_box "POWER CONNECTOR"
+		(exclude_from_sim no)
+		(at 173.99 25.4 0)
+		(size 34.29 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8df4fe9e-5f94-4f67-821d-f42cfa833d01")
+	)
 	(text_box "3V3 POWER LDO"
 		(exclude_from_sim no)
 		(at 194.31 72.39 0)
@@ -1462,6 +1682,12 @@
 		(uuid "166f2cc3-04c1-48d2-90fc-24244295de57")
 	)
 	(junction
+		(at 199.39 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20774e12-5ce7-4090-bf2c-4aa701f7e793")
+	)
+	(junction
 		(at 119.38 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1496,6 +1722,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5508db73-10db-45c6-b54c-83a2d22c320e")
+	)
+	(junction
+		(at 181.61 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0224f5-0099-4805-a040-4cc9d702ba72")
 	)
 	(junction
 		(at 134.62 99.06)
@@ -1639,6 +1871,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 40.64) (xy 199.39 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e83392-1aa2-4370-a961-2375fa95d86b")
+	)
+	(wire
+		(pts
 			(xy 134.62 102.87) (xy 134.62 107.95)
 		)
 		(stroke
@@ -1729,6 +1971,26 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 38.1) (xy 199.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4301dcaf-f8df-42fa-bb47-dc100d8b8d8c")
+	)
+	(wire
+		(pts
+			(xy 181.61 38.1) (xy 184.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c37412-d28b-4e10-9cc9-910aea3f3948")
+	)
+	(wire
+		(pts
 			(xy 102.87 96.52) (xy 119.38 96.52)
 		)
 		(stroke
@@ -1736,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "495188ce-eff5-4a59-8565-131f88906dd0")
+	)
+	(wire
+		(pts
+			(xy 181.61 40.64) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9e24a0-a6ea-4705-8664-3dbd468a6762")
 	)
 	(wire
 		(pts
@@ -1939,6 +2211,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 34.29) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97db61e3-aa2b-4844-a9ea-a9f042f59a27")
+	)
+	(wire
+		(pts
 			(xy 119.38 88.9) (xy 114.3 88.9)
 		)
 		(stroke
@@ -1959,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 40.64) (xy 199.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db0c182-bb8b-4ce1-a025-8001854302a6")
+	)
+	(wire
+		(pts
 			(xy 102.87 88.9) (xy 106.68 88.9)
 		)
 		(stroke
@@ -1976,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "a466ab3c-b08c-42e3-9cbd-b824285ac7a0")
+	)
+	(wire
+		(pts
+			(xy 196.85 38.1) (xy 199.39 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94fcdcf-4f6b-4f38-bb1b-33c1a55eb638")
 	)
 	(wire
 		(pts
@@ -2116,6 +2418,16 @@
 			(type default)
 		)
 		(uuid "ea5e6c7f-b83a-482c-a987-0659709f790e")
+	)
+	(wire
+		(pts
+			(xy 184.15 40.64) (xy 181.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0307e9-f7bb-4023-bbcf-9152f8b27ac5")
 	)
 	(wire
 		(pts
@@ -2690,6 +3002,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 199.39 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce4ed6e-12d2-4616-923f-09c5d42494e1")
+		(property "Reference" "#PWR068"
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b4682d9-9b8a-43b2-889f-251a8e1be0f4")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V1")
+		(at 181.61 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86f95e76-4299-4a8b-830d-f5c9dd83c402")
+		(property "Reference" "#PWR067"
+			(at 181.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "24V0"
+			(at 179.578 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e84ae11-2653-4fe1-ac60-84439b754af7")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 64.77 85.09 0)
 		(unit 1)
@@ -3026,6 +3470,80 @@
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 189.23 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ef7219-d56d-4b5b-9d23-3d89b425c393")
+		(property "Reference" "J8"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430450400"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7b3b7c02-b13f-491e-ac86-de8202e285e9")
+		)
+		(pin "1"
+			(uuid "68473784-0879-4c94-b623-812ce3223247")
+		)
+		(pin "2"
+			(uuid "cc375978-1799-4b8d-93b4-749c9d0b14ce")
+		)
+		(pin "3"
+			(uuid "99345969-20bf-4c8a-9228-82ba35e986ca")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
+					(reference "J8")
 					(unit 1)
 				)
 			)
