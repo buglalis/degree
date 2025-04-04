@@ -56,6 +56,121 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.2
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.25
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.3
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.35
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.4
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.45
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.5
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.55
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.6
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.65
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.7
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.75
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.8
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.85
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.9
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.95
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 1.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 1.1
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 1.2
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 1.3
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 1.4
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 1.5
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 1.6
         }
       ],
       "drc_exclusions": [],
@@ -136,7 +251,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -216,7 +331,7 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 3.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 1.0
@@ -224,7 +339,7 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 3.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
@@ -232,7 +347,7 @@
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 3.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
