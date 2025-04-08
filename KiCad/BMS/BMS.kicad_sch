@@ -5259,7 +5259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09ae136f-9a57-49dd-bdeb-aa6499bea05c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 63.5 134.62 0)
 			(effects
 				(font
@@ -5309,7 +5309,7 @@
 		(instances
 			(project ""
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5758,7 +5758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "395689b3-a25c-4d86-8d0d-38946caf2d4f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 223.52 77.47 0)
 			(effects
 				(font
@@ -5808,7 +5808,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6065,7 +6065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60072d3f-cb49-4a62-8025-d08c971952c2")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -6115,7 +6115,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6267,7 +6267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e09883b-2960-4d95-b78f-ef95987e5e47")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -6317,7 +6317,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6603,7 +6603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81909507-6d93-499d-8b69-0bb633a6ec9b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 165.735 81.28 0)
 			(effects
 				(font
@@ -6653,7 +6653,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
