@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="1690" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,19 +67,19 @@
           <mxGeometry x="-40" y="350" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6HV9Fr3d24v6WkUjmxJP-4" value="Buck Boost" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="410" width="140" height="40" as="geometry" />
+          <mxGeometry x="100" y="300" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6HV9Fr3d24v6WkUjmxJP-5" value="PowerPump" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="430" width="130" height="40" as="geometry" />
+          <mxGeometry x="100" y="250" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-X56-YEOPtIasaBdFyu-1" value="Back Forward&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Buck%20Boost%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%22250%22%20width%3D%22130%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="350" width="130" height="40" as="geometry" />
+          <mxGeometry x="540" y="400" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-X56-YEOPtIasaBdFyu-2" value="Biderectional" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="460" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-X56-YEOPtIasaBdFyu-3" value="FlyBack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="360" width="140" height="40" as="geometry" />
+          <mxGeometry x="400" y="250" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Rw6ZmgQpGNzE91qn4elL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="Rw6ZmgQpGNzE91qn4elL-1" target="y5NR5qdMvUlb6hSTPkb--1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -93,10 +93,10 @@
         <mxCell id="Rw6ZmgQpGNzE91qn4elL-1" value="&quot;Без потерь&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="120" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TXTLjy6JvIp6WnetvjiG-1" value="Смешанные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TXTLjy6JvIp6WnetvjiG-1" value="Смешанные" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="200" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TXTLjy6JvIp6WnetvjiG-2" value="Трансформаторы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TXTLjy6JvIp6WnetvjiG-2" value="Трансформаторы" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="200" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
