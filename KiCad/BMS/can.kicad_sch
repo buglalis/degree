@@ -4630,12 +4630,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3v3"
-			(at 257.175 39.37 0)
+		(property "Value" "3V3"
+			(at 259.08 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

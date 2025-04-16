@@ -11,6 +11,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% Useful packages %%%%%
+\RequirePackage{embedfile}
+\RequirePackage{seqsplit}
 % Math packages, should be loaded before fontenc and babel for Cyrillic
 \RequirePackage{amsmath,amsthm,amssymb}
 \RequirePackage{mathtext}
