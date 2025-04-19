@@ -1563,7 +1563,7 @@
 	)
 	(text "ПОСЧИТАТЬ КОНДЕНСАТОР И РЕЗИСТРЫ"
 		(exclude_from_sim no)
-		(at 99.06 71.12 0)
+		(at 96.52 56.515 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1652,7 +1652,7 @@
 		(uuid "dcdbadaa-df00-407c-8fda-3898b6d792eb")
 	)
 	(junction
-		(at 119.38 93.98)
+		(at 119.38 84.455)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e52ce98-54b1-4bec-a981-d26b92738460")
@@ -1682,34 +1682,28 @@
 		(uuid "166f2cc3-04c1-48d2-90fc-24244295de57")
 	)
 	(junction
+		(at 119.38 94.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bb5fb02-911e-49c5-99b5-f70d0688f9d0")
+	)
+	(junction
 		(at 199.39 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20774e12-5ce7-4090-bf2c-4aa701f7e793")
 	)
 	(junction
-		(at 119.38 96.52)
+		(at 119.38 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3640dc97-eaec-4736-b113-6ee9f224e256")
 	)
 	(junction
-		(at 134.62 93.98)
+		(at 134.62 84.455)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "380947fa-fe38-4d6c-932e-ec9c78589c95")
-	)
-	(junction
-		(at 134.62 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c00a432-65b8-4b8a-8464-601275896147")
-	)
-	(junction
-		(at 119.38 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42506bc8-b1e8-410f-ac3e-e1dfdebad7eb")
 	)
 	(junction
 		(at 80.01 116.84)
@@ -1730,25 +1724,25 @@
 		(uuid "7b0224f5-0099-4805-a040-4cc9d702ba72")
 	)
 	(junction
-		(at 134.62 99.06)
+		(at 134.62 89.535)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8473ed39-0af8-46ae-9c85-9e96600319e6")
 	)
 	(junction
-		(at 106.68 93.98)
+		(at 106.68 84.455)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cdac648-dc79-4d12-9fae-c5caf6dc95fa")
 	)
 	(junction
-		(at 72.39 88.9)
+		(at 72.39 79.375)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91101101-7f7f-4ff2-a70b-a75bae69fb69")
 	)
 	(junction
-		(at 134.62 96.52)
+		(at 134.62 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9665260c-124c-4f4c-9dec-c4f61928eef2")
@@ -1758,6 +1752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1bba63a-e775-40dd-88d5-13916d4b382b")
+	)
+	(junction
+		(at 134.62 94.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e42fea56-a685-4211-8dbf-e0b946f02c7d")
 	)
 	(junction
 		(at 237.49 87.63)
@@ -1772,7 +1772,7 @@
 		(uuid "f2bc7e72-385b-425e-8f77-e5a86e1da7af")
 	)
 	(junction
-		(at 64.77 88.9)
+		(at 64.77 79.375)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5cb8080-6df9-42ea-bce1-a85b865be49d")
@@ -1784,7 +1784,7 @@
 		(uuid "fbe9a9cf-cd8b-423d-b966-e6b188440ebe")
 	)
 	(junction
-		(at 80.01 88.9)
+		(at 80.01 79.375)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd89ee4f-ef5a-403b-ac04-efc2c6068583")
@@ -1801,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 88.9) (xy 72.39 88.9)
+			(xy 64.77 79.375) (xy 72.39 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1811,17 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c5cee1-6bd0-40c2-9982-4af3c3aa724a")
-	)
-	(wire
-		(pts
-			(xy 134.62 93.98) (xy 134.62 96.52)
+			(xy 134.62 84.455) (xy 134.62 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 134.62 102.87)
+			(xy 134.62 89.535) (xy 134.62 94.615)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 93.98) (xy 80.01 93.98)
+			(xy 82.55 84.455) (xy 80.01 84.455)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 80.01 88.9)
+			(xy 72.39 79.375) (xy 80.01 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1881,16 +1871,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 134.62 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b488920-ab55-48cd-bf59-d55d2cda4c7c")
-	)
-	(wire
-		(pts
 			(xy 64.77 120.65) (xy 64.77 116.84)
 		)
 		(stroke
@@ -1901,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 119.38 93.98)
+			(xy 106.68 84.455) (xy 119.38 84.455)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 96.52) (xy 80.01 116.84)
+			(xy 80.01 86.995) (xy 80.01 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +1901,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 106.68 100.33)
+			(xy 119.38 104.775) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315656bc-b497-4398-b2da-f4afbb660f5d")
+	)
+	(wire
+		(pts
+			(xy 106.68 84.455) (xy 106.68 90.805)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 123.19 93.98)
+			(xy 119.38 84.455) (xy 123.19 84.455)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 88.9) (xy 80.01 93.98)
+			(xy 80.01 79.375) (xy 80.01 84.455)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 119.38 96.52)
+			(xy 102.87 86.995) (xy 119.38 86.995)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 107.95) (xy 106.68 116.84)
+			(xy 106.68 98.425) (xy 106.68 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 119.38 116.84)
+			(xy 119.38 114.3) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2071,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 72.39 116.84)
+			(xy 72.39 97.155) (xy 72.39 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 134.62 96.52)
+			(xy 130.81 86.995) (xy 134.62 86.995)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 102.87) (xy 119.38 102.87)
+			(xy 123.825 94.615) (xy 119.38 94.615)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 96.52) (xy 80.01 96.52)
+			(xy 82.55 86.995) (xy 80.01 86.995)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 134.62 99.06)
+			(xy 134.62 86.995) (xy 134.62 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2121,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 102.87) (xy 119.38 105.41)
+			(xy 119.38 94.615) (xy 119.38 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705c564a-e1d9-44e0-b8e8-7211f2e1c368")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.995) (xy 119.38 94.615)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 88.9) (xy 82.55 88.9)
+			(xy 80.01 79.375) (xy 82.55 79.375)
 		)
 		(stroke
 			(width 0)
@@ -2161,7 +2161,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 134.62 93.98)
+			(xy 134.62 75.565) (xy 134.62 84.455)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 119.38 93.98)
+			(xy 119.38 79.375) (xy 119.38 84.455)
 		)
 		(stroke
 			(width 0)
@@ -2221,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 114.3 88.9)
+			(xy 119.38 79.375) (xy 114.3 79.375)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 88.9) (xy 106.68 88.9)
+			(xy 102.87 79.375) (xy 106.68 79.375)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 64.77 88.9)
+			(xy 64.77 75.565) (xy 64.77 79.375)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 72.39 99.06)
+			(xy 72.39 79.375) (xy 72.39 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 88.9) (xy 64.77 99.06)
+			(xy 64.77 79.375) (xy 64.77 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 123.19 96.52)
+			(xy 119.38 86.995) (xy 123.19 86.995)
 		)
 		(stroke
 			(width 0)
@@ -2341,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 64.77 116.84)
+			(xy 64.77 97.155) (xy 64.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 104.14) (xy 92.71 116.84)
+			(xy 92.71 94.615) (xy 92.71 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 130.81 102.87)
+			(xy 134.62 94.615) (xy 131.445 94.615)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 123.19 99.06)
+			(xy 102.87 89.535) (xy 123.19 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2431,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 93.98) (xy 134.62 93.98)
+			(xy 130.81 84.455) (xy 134.62 84.455)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +2441,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 106.68 93.98)
+			(xy 134.62 94.615) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89adada-ec9b-4d24-9cf8-6fca8662f204")
+	)
+	(wire
+		(pts
+			(xy 102.87 84.455) (xy 106.68 84.455)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 99.06) (xy 134.62 99.06)
+			(xy 130.81 89.535) (xy 134.62 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2461,15 +2471,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 102.87 0)
+		(at 64.77 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0c454189-b317-471b-9d54-d58ec3420286")
-		(property "Reference" "C21"
-			(at 66.04 100.33 0)
+		(property "Reference" "C19"
+			(at 66.04 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2488,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 66.04 105.41 0)
+			(at 66.04 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2497,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 65.7352 106.68 0)
+			(at 65.7352 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,7 +2506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 102.87 0)
+			(at 64.77 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2515,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 102.87 0)
+			(at 64.77 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2532,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2530,23 +2540,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 96.52 90)
+		(at 127 86.995 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "289bef22-fdef-4937-b72a-19f49a82d25b")
-		(property "Reference" "R3"
-			(at 121.92 95.25 90)
+		(property "Reference" "R4"
+			(at 121.92 85.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "47k"
-			(at 127 96.52 90)
+		(property "Value" "10k"
+			(at 127 86.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2564,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127 98.298 90)
+			(at 127 88.773 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 96.52 0)
+			(at 127 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 96.52 0)
+			(at 127 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2591,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 127 96.52 0)
+			(at 127 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2600,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 127 96.52 0)
+			(at 127 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2609,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 127 96.52 0)
+			(at 127 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2618,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 127 96.52 0)
+			(at 127 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2635,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2633,7 +2643,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:ST1S14PHR")
-		(at 92.71 93.98 0)
+		(at 92.71 84.455 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2642,7 +2652,7 @@
 		(fields_autoplaced yes)
 		(uuid "46e0358f-a2c6-415e-a7e2-91923802d067")
 		(property "Reference" "U4"
-			(at 92.71 81.28 0)
+			(at 92.71 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2660,7 @@
 			)
 		)
 		(property "Value" "ST1S14PHR"
-			(at 92.71 83.82 0)
+			(at 92.71 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2668,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8"
-			(at 95.885 102.87 0)
+			(at 95.885 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2679,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf"
-			(at 92.71 93.98 0)
+			(at 92.71 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2688,7 @@
 			)
 		)
 		(property "Description" "3A step-down switching regulator, Adjustable Output Voltage, 5.5-48V Input Voltage, 850kHz, PowerSO-8"
-			(at 92.71 93.98 0)
+			(at 92.71 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2734,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 102.87 90)
+		(at 127.635 94.615 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2732,8 +2742,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f1dcf52-4fd4-437a-a89c-7df68b6e52d1")
-		(property "Reference" "C23"
-			(at 132.08 101.6 90)
+		(property "Reference" "C21"
+			(at 132.715 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,8 +2751,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 130.81 104.14 90)
+		(property "Value" "150p"
+			(at 133.985 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2761,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 130.81 103.8352 0)
+			(at 131.445 95.5802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 102.87 0)
+			(at 127.635 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2779,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 102.87 0)
+			(at 127.635 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2796,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2794,23 +2804,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 109.22 180)
+		(at 119.38 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "65a5b9fd-dc76-4838-970b-66fdf5492623")
-		(property "Reference" "R5"
-			(at 116.586 109.22 90)
+		(property "Reference" "R7"
+			(at 116.586 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2k7"
-			(at 119.38 109.22 90)
+		(property "Value" "3k"
+			(at 119.38 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2828,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.158 109.22 90)
+			(at 121.158 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 109.22 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 109.22 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2855,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 119.38 109.22 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2864,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 119.38 109.22 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2873,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 119.38 109.22 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2882,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 119.38 109.22 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2899,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3011,7 +3021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce4ed6e-12d2-4616-923f-09c5d42494e1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 199.39 50.8 0)
 			(effects
 				(font
@@ -3061,7 +3071,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3076,7 +3086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86f95e76-4299-4a8b-830d-f5c9dd83c402")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -3127,7 +3137,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3135,15 +3145,15 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 64.77 85.09 0)
+		(at 64.77 75.565 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8bea9751-320a-4e04-ac89-95949d77a0fa")
-		(property "Reference" "#PWR031"
-			(at 64.77 88.9 0)
+		(property "Reference" "#PWR032"
+			(at 64.77 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3162,7 @@
 			)
 		)
 		(property "Value" "24V0"
-			(at 62.738 80.01 0)
+			(at 62.738 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 85.09 0)
+			(at 64.77 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 85.09 0)
+			(at 64.77 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 64.77 85.09 0)
+			(at 64.77 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3203,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3201,7 +3211,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 88.9 90)
+		(at 110.49 79.375 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3209,7 +3219,7 @@
 		(dnp no)
 		(uuid "8c92f3a0-fdbc-4590-b0ca-28e74bfb316a")
 		(property "Reference" "C18"
-			(at 109.2199 85.09 0)
+			(at 109.2199 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3228,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 111.506 85.09 0)
+			(at 111.506 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3237,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 114.3 87.9348 0)
+			(at 114.3 78.4098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 88.9 0)
+			(at 110.49 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3255,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 110.49 88.9 0)
+			(at 110.49 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3280,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 127 93.98 90)
+		(at 127 84.455 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3279,15 +3289,15 @@
 		(fields_autoplaced yes)
 		(uuid "94d38865-aeab-4164-b1fb-1d971b475be1")
 		(property "Reference" "L2"
-			(at 127 88.9 90)
+			(at 127 79.375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "8u5"
-			(at 127 91.44 90)
+		(property "Value" "6.8"
+			(at 127 81.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3305,7 @@
 			)
 		)
 		(property "Footprint" "user:CTSFW7050F"
-			(at 127 93.98 0)
+			(at 127 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3314,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311150110_Central-Semicon-CTSFW7050F-6R5M_C17401473.pdf"
-			(at 127 93.98 0)
+			(at 127 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3323,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 127 93.98 0)
+			(at 127 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cd3eb50-c930-4d4e-8efa-af2fcf6da30a")
-		(property "Reference" "C19"
+		(property "Reference" "C22"
 			(at 201.93 101.6001 0)
 			(effects
 				(font
@@ -3399,7 +3409,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "C19")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3415,7 +3425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3969d0f-c43a-4a77-a17e-a539779772f3")
-		(property "Reference" "C20"
+		(property "Reference" "C23"
 			(at 241.3 101.6001 0)
 			(effects
 				(font
@@ -3469,7 +3479,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "C20")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3551,15 +3561,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 102.87 0)
+		(at 72.39 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a8340c-3029-4bf3-9bd5-41cbb5cb2dcc")
-		(property "Reference" "C22"
-			(at 73.66 100.33 0)
+		(property "Reference" "C20"
+			(at 73.66 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3578,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 73.66 105.41 0)
+			(at 73.66 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3587,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 73.3552 106.68 0)
+			(at 73.3552 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 102.87 0)
+			(at 72.39 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3605,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 102.87 0)
+			(at 72.39 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3622,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3629,7 +3639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6bf8757-9829-4219-9db1-01a47034d568")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 205.74 121.92 0)
 			(effects
 				(font
@@ -3679,7 +3689,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3695,7 +3705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9b3a4c2-eada-4e4d-9ec1-9101e7996325")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 237.49 88.9 0)
 			(effects
 				(font
@@ -3746,7 +3756,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3762,7 +3772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbe5e2af-cf3d-4f2c-91d1-7ac608baeb4b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 64.77 127 0)
 			(effects
 				(font
@@ -3812,7 +3822,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3892,15 +3902,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 99.06 90)
+		(at 127 89.535 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ce03976e-26a3-45d1-8a56-3af5e3a7a23b")
-		(property "Reference" "R4"
-			(at 121.92 97.79 90)
+		(property "Reference" "R5"
+			(at 121.92 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3918,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 127 99.06 90)
+			(at 127 89.535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3926,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127 100.838 90)
+			(at 127 91.313 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 99.06 0)
+			(at 127 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 99.06 0)
+			(at 127 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3953,7 @@
 			)
 		)
 		(property "Мин. кол-во" "1000"
-			(at 127 99.06 0)
+			(at 127 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3962,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/344748/"
-			(at 127 99.06 0)
+			(at 127 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3971,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 127 99.06 0)
+			(at 127 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3980,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
-			(at 127 99.06 0)
+			(at 127 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3997,110 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "R4")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 100.965 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da4a9b79-6bc7-4bb7-af2e-c4ddb6a507f8")
+		(property "Reference" "R6"
+			(at 116.586 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 119.38 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.158 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 119.38 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 119.38 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 119.38 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 119.38 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e67a150a-08cf-4d2c-a1f8-0465db545d65")
+		)
+		(pin "2"
+			(uuid "6504dd87-ba01-4dd7-a7e7-337fc7abca4a")
+		)
+		(instances
+			(project "BMS"
+				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3995,7 +4108,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV16W")
-		(at 106.68 104.14 90)
+		(at 106.68 94.615 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4004,7 +4117,7 @@
 		(dnp no)
 		(uuid "da93d218-b2d4-48b8-a0a0-5b07f790fb39")
 		(property "Reference" "D2"
-			(at 109.22 105.4101 90)
+			(at 109.22 95.8851 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4126,7 @@
 			)
 		)
 		(property "Value" "BAV16W"
-			(at 109.22 102.8701 90)
+			(at 109.22 93.3451 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 111.125 104.14 0)
+			(at 111.125 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4144,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30086.pdf"
-			(at 106.68 104.14 0)
+			(at 106.68 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4153,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 106.68 104.14 0)
+			(at 106.68 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +4162,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 104.14 0)
+			(at 106.68 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4171,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 104.14 0)
+			(at 106.68 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71a9bef-aa2e-443b-9650-d703a2715080")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 205.74 88.9 0)
 			(effects
 				(font
@@ -4142,7 +4255,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4150,15 +4263,15 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 134.62 85.09 0)
+		(at 134.62 75.565 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ec1f2f54-2aca-48f5-acf2-63014075fb9d")
-		(property "Reference" "#PWR032"
-			(at 134.62 88.9 0)
+		(property "Reference" "#PWR033"
+			(at 134.62 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4280,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 133.096 80.01 0)
+			(at 133.096 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 85.09 0)
+			(at 134.62 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 85.09 0)
+			(at 134.62 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4307,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 134.62 85.09 0)
+			(at 134.62 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4321,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/1af78963-9fe3-4dd0-8f03-a203e27f1081"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
