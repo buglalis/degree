@@ -4656,7 +4656,7 @@
 	)
 	(global_label "SPI1_CS_2"
 		(shape input)
-		(at 82.55 35.56 0)
+		(at 78.74 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4666,7 +4666,7 @@
 		)
 		(uuid "37d68ae2-c0c1-4556-84ac-ed540925f726")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.4532 35.56 0)
+			(at 91.6432 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

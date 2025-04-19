@@ -43,6 +43,46 @@
     \label{fig:principial}
 \end{figure}
 
-Схема имеет выраженный гистерезис
+Схема имеет выраженный гистерезис $-$ балансировка начинается при более высоком напряжении чем закачивается.
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}{0.5\linewidth}
+		\includegraphics[width=\linewidth]{img/sheme/part_0.png}
+		\subcaption{Напряжение ниже диапазона балансировки}
+		\label{fig:algoritm_part_0}
+	\end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/sheme/part_1.png}
+        \subcaption{FIXME FIXME FIXME FIXME}
+        \label{fig:algoritm_part_1}
+    \end{minipage}
+	\begin{minipage}{0.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/sheme/part_2.png}
+        \subcaption{Промежуточное состояние (лавинообразное открытие TL431)}
+        \label{fig:algoritm_part_1}
+    \end{minipage}
+    \begin{minipage}{0.5\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/sheme/part_3.png}
+        \subcaption{ключ открыт}
+        \label{fig:algoritm_part_2}
+    \end{minipage}
+    \caption{состояния схемы}
+    \label{fig:balance_algoritm}
+\end{figure}
+
+
+
+\begin{figure}[ht]
+    \begin{equation*}
+        \frac{U_{up}}{U_{TL431}} = \frac{R_3 + R_5}{R_5} \\
+    \end{equation*}
+    \begin{equation*}
+        \frac{U_{down}}{U_{TL431}} = \frac{\frac{R_3 R_4}{R_3+R_4} + R_5}{R_5}  \\
+    \end{equation*}
+\end{figure}
 
 \newpage
