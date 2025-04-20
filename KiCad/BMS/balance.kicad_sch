@@ -11122,8 +11122,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d3cfdf1-f8d6-4032-a6ea-a3b9dbfe2711")
-		(property "Reference" "R_bal_3"
-			(at 262.636 132.08 90)
+		(property "Reference" "Rb3"
+			(at 262.89 130.175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +11212,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_3")
+					(reference "Rb3")
 					(unit 1)
 				)
 			)
@@ -14322,8 +14322,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "465a4709-9dde-46f3-8bbf-6d37df2b0e93")
-		(property "Reference" "R_bal_5"
-			(at 262.636 215.9 90)
+		(property "Reference" "Rb5"
+			(at 262.89 213.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,7 +14412,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_5")
+					(reference "Rb5")
 					(unit 1)
 				)
 			)
@@ -16186,8 +16186,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6001451a-92e5-45a2-89dc-27146744af59")
-		(property "Reference" "R_bal_6"
-			(at 262.636 257.81 90)
+		(property "Reference" "Rb6"
+			(at 262.89 255.905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,7 +16276,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_6")
+					(reference "Rb6")
 					(unit 1)
 				)
 			)
@@ -17348,8 +17348,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "744a8c45-e2ae-44b4-b802-71e317585e93")
-		(property "Reference" "R_bal_1"
-			(at 262.636 52.07 90)
+		(property "Reference" "Rb1"
+			(at 262.89 50.165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17438,7 +17438,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_1")
+					(reference "Rb1")
 					(unit 1)
 				)
 			)
@@ -19368,8 +19368,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90d3230c-322e-4d2c-86e3-21913e608539")
-		(property "Reference" "R_bal_8"
-			(at 262.636 341.63 90)
+		(property "Reference" "Rb8"
+			(at 262.89 339.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19458,7 +19458,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_8")
+					(reference "Rb8")
 					(unit 1)
 				)
 			)
@@ -20346,8 +20346,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a67719b2-d3b2-4eb3-b9ea-f4d6cd0c21ea")
-		(property "Reference" "R_bal_7"
-			(at 262.636 299.72 90)
+		(property "Reference" "Rb7"
+			(at 262.89 297.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20436,7 +20436,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_7")
+					(reference "Rb7")
 					(unit 1)
 				)
 			)
@@ -21331,8 +21331,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b91c454d-8664-4e63-82eb-56fd1292d99b")
-		(property "Reference" "R_bal_2"
-			(at 262.636 90.17 90)
+		(property "Reference" "Rb2"
+			(at 262.89 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21421,7 +21421,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_2")
+					(reference "Rb2")
 					(unit 1)
 				)
 			)
@@ -23309,8 +23309,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e204d4a1-7d2e-4119-bd37-8248528450af")
-		(property "Reference" "R_bal_4"
-			(at 262.636 173.99 90)
+		(property "Reference" "Rb4"
+			(at 262.89 172.085 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23399,7 +23399,7 @@
 		(instances
 			(project "BMS"
 				(path "/d2402062-308b-4eb4-ada9-28eaf3edc216/0012aeb1-9a62-4ce2-b968-388281bbc3b6"
-					(reference "R_bal_4")
+					(reference "Rb4")
 					(unit 1)
 				)
 			)
