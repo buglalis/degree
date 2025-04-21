@@ -3289,15 +3289,15 @@
 		(fields_autoplaced yes)
 		(uuid "94d38865-aeab-4164-b1fb-1d971b475be1")
 		(property "Reference" "L2"
-			(at 127 79.375 90)
+			(at 127 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "6.8"
-			(at 127 81.915 90)
+		(property "Value" "6.8u"
+			(at 127 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
