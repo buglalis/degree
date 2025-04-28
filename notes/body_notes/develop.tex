@@ -29,13 +29,12 @@
 Балансировочная схема состоит из двух частей:
 ключ с балансировояным резистром и триггер Шмитта, 
 который настроен на разрядку ячейки в некотором диапазоне напряжений.
-Ключом явлется полевой N-MOSFET транзистор $Q2$, через него проходит ток балансировки. 
+Ключом явлется полевой N-MOSFET транзистор $Q_2$, через него проходит ток балансировки. 
 Значение тока балансировки настраивается номиналом балансировочного резистра $R_b$.
-В триггер Шмитта входят все остальные элементы, а именно: резистры $R1$ - $R6$, 
-биполярный pnp транзистор $Q1$ и $TL431$.
+В триггер Шмитта входят все остальные элементы, а именно: резистры $R_1$ - $R_6$, 
+биполярный pnp транзистор $Q_1$ и $TL431$.
 
 Ниже представлена принципиальная балансировочная (см. \figurename  \ref{fig:principial})
-
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\linewidth]{img/principial.jpg}
@@ -45,7 +44,33 @@
 
 Схема имеет выраженный гистерезис $-$ балансировка начинается при более высоком напряжении чем закачивается.
 
-\begin{figure}[h]
+
+\subsubsection{Поэтапный алгоритм работы схемы}
+Для описания алгоритма введём следующие величины: \\
+$V_{\text{bat}}$ -- напряжение ячейки. \\
+$(V_1, V_2)$ -- диапазон балансировки. \\
+При достижении $V_2$ балансировка начинается, когда падает до $V_1$ балансировка выключается.
+
+\begin{enumerate}
+    \item \textbf{Состояние 0}: напряжение $V_{\text{bat}}$ значительно меньше $V_2$ (см. рис.~\ref{fig:algoritm_part_0}). \\
+    Ток не идёт через $Q_1$, $Q_2$, $TL431$. \\
+    Напряжение на съёмном плече делителя напряжения, обозначенного синей рамкой, меньше 2.5~В.
+
+    \item \textbf{Состояние 1}: напряжение $V_{\text{bat}}$ увеличивается и подходит близко к $V_2$. \\
+    $TL431$ начинает пропускать слабый ток, который в том числе проходит и через транзистор $Q_1$. \\
+    Получаем лавинообразную реакцию. Чем больше ток через $TL431$, тем больше ток через $Q_1$. \\
+    Тем выше напряжение на контакте REF $TL431$. И наконец, тем выше ток через $TL431$.
+
+    \item \textbf{Состояние 2}: \\
+    Ток базы на $Q_1$ становится достаточным, чтобы транзистор открылся. Напряжение доходит до резистора $R_4$. 
+    Теперь наш изначальный делитель становится сложнее.
+
+    \item \textbf{Состояние 3}: \\
+    
+\end{enumerate}
+
+
+\begin{figure}[h!]
 	\centering
 	\begin{minipage}{0.5\linewidth}
 		\includegraphics[width=\linewidth]{img/sheme/part_0.png}
@@ -55,20 +80,20 @@
     \begin{minipage}{0.49\linewidth}
         \centering
         \includegraphics[width=\linewidth]{img/sheme/part_1.png}
-        \subcaption{FIXME FIXME FIXME FIXME}
+        \subcaption{Инициация открытия $Q_1$}
         \label{fig:algoritm_part_1}
     \end{minipage}
 	\begin{minipage}{0.49\linewidth}
         \centering
         \includegraphics[width=\linewidth]{img/sheme/part_2.png}
-        \subcaption{Промежуточное состояние (лавинообразное открытие TL431)}
-        \label{fig:algoritm_part_1}
+        \subcaption{ключ открыт}
+        \label{fig:algoritm_part_2}
     \end{minipage}
     \begin{minipage}{0.5\linewidth}
         \centering
         \includegraphics[width=\linewidth]{img/sheme/part_3.png}
-        \subcaption{ключ открыт}
-        \label{fig:algoritm_part_2}
+        \subcaption{}
+        \label{fig:algoritm_part_3}
     \end{minipage}
     \caption{состояния схемы}
     \label{fig:balance_algoritm}
@@ -76,13 +101,18 @@
 
 
 
-\begin{figure}[ht]
+\subsubsection{Расчёт компонентов}
+
+\begin{figure}[h]
     \begin{equation*}
-        \frac{U_{up}}{U_{TL431}} = \frac{R_3 + R_5}{R_5} \\
+        \frac{U_2}{U_{TL431}} = \frac{R_3 + R_5}{R_5} \\
     \end{equation*}
     \begin{equation*}
-        \frac{U_{down}}{U_{TL431}} = \frac{\frac{R_3 R_4}{R_3+R_4} + R_5}{R_5}  \\
+        \frac{U_1}{U_{TL431}} = \frac{\frac{R_3 R_4}{R_3+R_4} + R_5}{R_5}  \\
     \end{equation*}
 \end{figure}
+
+
+
 
 \newpage

@@ -10,7 +10,7 @@
    xml:space="preserve"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="sheme_part_2.svg"
-   inkscape:export-filename="..\sheme\part_4.png"
+   inkscape:export-filename="..\sheme\part_3.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,11 +27,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0167041"
-     inkscape:cx="111.63523"
-     inkscape:cy="327.03714"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:zoom="1.4378367"
+     inkscape:cx="133.18619"
+     inkscape:cy="301.49459"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -261,8 +261,8 @@
          d="M 68.876461,30.021211 97.629073,30.1874 C 111.88078,30.083173 111.84215,15.805443 96.975357,15.909755 L 67.389984,15.564741"
          id="path8-2"
          sodipodi:nodetypes="cccc" /><path
-         style="fill:none;fill-opacity:1;stroke:#ce6534;stroke-width:1.456;stroke-linecap:butt;stroke-miterlimit:3.8;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker10-5)"
-         d="M 121.32175,96.901733 121.03602,12.91407"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#ce6534;stroke-width:1.45137;stroke-linecap:butt;stroke-miterlimit:3.8;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker10-5)"
+         d="M 121.32175,96.368428 121.03602,12.91407"
          id="path8-1"
          sodipodi:nodetypes="cc" /><path
          style="display:inline;fill:none;fill-opacity:1;stroke:#ce6534;stroke-width:1.456;stroke-linecap:butt;stroke-miterlimit:3.8;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker10-5-4)"
@@ -278,7 +278,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:1.9;font-family:Newstroke;-inkscape-font-specification:'Newstroke, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#54d32c;fill-opacity:1;stroke:#000000;stroke-width:0.830083;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="563.22089"
            y="235.93555"
-           id="tspan1">OPEN</tspan></text><path
+           id="tspan2">OPEN</tspan></text><path
          style="display:none;fill:none;fill-opacity:1;stroke:#ce6534;stroke-width:1.456;stroke-linecap:butt;stroke-miterlimit:3.8;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker10-5-8)"
          d="m 81.050797,61.889443 10.406234,-0.02929 16.910269,-0.04759"
          id="path8-1-2"
@@ -286,4 +286,10 @@
          style="display:none;fill:none;fill-opacity:1;stroke:#ce6534;stroke-width:1.456;stroke-linecap:butt;stroke-miterlimit:3.8;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker10-5-9)"
          d="M 80.335138,96.372819 80.233423,74.030141"
          id="path8-1-9"
-         sodipodi:nodetypes="cc" /></g></g></svg>
+         sodipodi:nodetypes="cc" /><rect
+         style="fill:none;stroke:#1d00c0;stroke-width:0.935947;stroke-opacity:1"
+         id="rect3"
+         width="34.336246"
+         height="58.733398"
+         x="67.929146"
+         y="40.929634" /></g></g></svg>
