@@ -12622,7 +12622,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "180"
 			(at 66.04 64.77 90)
 			(effects
 				(font
@@ -13991,7 +13991,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "180"
 			(at 66.04 102.87 90)
 			(effects
 				(font
@@ -15903,7 +15903,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "180"
 			(at 59.69 218.44 90)
 			(effects
 				(font
@@ -16717,7 +16717,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "180"
 			(at 66.04 59.69 90)
 			(effects
 				(font
@@ -23591,7 +23591,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "180"
 			(at 66.04 107.95 90)
 			(effects
 				(font
@@ -23897,7 +23897,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "180"
 			(at 59.69 213.36 90)
 			(effects
 				(font
