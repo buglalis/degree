@@ -29,6 +29,14 @@
 \RequirePackage{tocloft}
 
 \RequirePackage{pdfpages}
+
+\RequirePackage{tabularx}
+\RequirePackage{array}
+\RequirePackage{booktabs}
+\RequirePackage{enumitem}
+\RequirePackage{ragged2e}
+\RequirePackage{tabularx}
+
 % Style file with additional packages
 \RequirePackage{mipt-thesis}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%

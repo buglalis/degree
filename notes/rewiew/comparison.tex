@@ -13,3 +13,48 @@
 %     Angola& AO  & AGO&024\\
 %     \hline
 % \end{tabular}
+
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\setlist[itemize]{nosep, leftmargin=*, before=\vspace{-0.5\baselineskip}, after=\vspace{-0.5\baselineskip}}
+
+\begin{table}[ht]
+    \renewcommand{\arraystretch}{1} % Увеличивает межстрочный интервал
+    \setlength{\tabcolsep}{9pt}      % Отступы в ячейках
+    \fontsize{9}{12}\selectfont       % Размер шрифта + интерлиньяж
+    \centering
+    \caption{Сравнительная таблица методов}
+    \label{tab:balancing_schemes}
+    \begin{tabularx}{1.1\linewidth}{|X|X|X|}
+        \hline
+        \fontsize{12}{14}\selectfont\textbf{Схема} & \fontsize{12}{14}\selectfont\textbf{Достоинства} & \fontsize{12}{14}\selectfont\textbf{Недостатки} \\
+        \hline
+
+        1. Пасивная на одном резистре & 
+        \begin{itemize}
+            \item FIXME
+        \end{itemize} & 
+        \begin{itemize}
+            \item FIXME
+        \end{itemize} \\
+        \hline
+
+        2. Пассивная, шунтирующий резистор & 
+        \begin{itemize}
+            \item FIXME
+        \end{itemize} & 
+        \begin{itemize}
+            \item FIXME
+        \end{itemize} \\
+        \hline
+       
+        LAST. ............ & 
+        \begin{itemize}
+            \item FIXME
+        \end{itemize} & 
+        \begin{itemize}
+            \item FIXME
+        \end{itemize} \\
+        \hline
+       
+    \end{tabularx}
+\end{table}
