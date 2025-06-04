@@ -36,6 +36,8 @@
 \RequirePackage{enumitem}
 \RequirePackage{ragged2e}
 \RequirePackage{tabularx}
+\RequirePackage{comment}
+\RequirePackage{physics}
 
 % Style file with additional packages
 \RequirePackage{mipt-thesis}
@@ -276,25 +278,25 @@
         \the\year{}
     \end{center}
 
-    \newpage
-    % \input{src/aerokitties_page}
-    \begin{center}
-      \thispagestyle{empty}
-      \centering
-      \hfill
+    % \newpage
+    % % \input{src/aerokitties_page}
+    % \begin{center}
+    %   \thispagestyle{empty}
+    %   \centering
+    %   \hfill
       
-      \vspace{1cm}
+    %   \vspace{1cm}
     
-      \begin{center}
-        \LARGE \textsc{Inspired by the community}
-      \end{center}
+    %   \begin{center}
+    %     \LARGE \textsc{Inspired by the community}
+    %   \end{center}
     
-      \vspace{2.5cm}
-      % \includegraphics[width=0.5\textwidth]{images/logo.jpg}
-      \href{https://vk.com/aerokitties}{\includegraphics[width=0.5\textwidth]{img/logo.jpg}}
-    \end{center}
+    %   \vspace{2.5cm}
+    %   % \includegraphics[width=0.5\textwidth]{images/logo.jpg}
+    %   \href{https://vk.com/aerokitties}{\includegraphics[width=0.5\textwidth]{img/logo.jpg}}
+    % \end{center}
     
-    \vfill
+    % \vfill
 }
 
 \newcommand{\titlecontents}{

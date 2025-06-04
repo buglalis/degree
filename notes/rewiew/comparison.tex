@@ -1,26 +1,10 @@
-% \begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
-%     \hline
-%     \multicolumn{4}{|c|}{Country List} \\
-%     \hline
-%     Country Name or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 Code&ISO numeric Code\\
-%     \hline
-%     Afghanistan   & AF    &AFG&   004\\
-%     Aland Islands&   AX  & ALA   &248\\
-%     Albania &AL & ALB&  008\\
-%     Algeria    &DZ & DZA&  012\\
-%     American Samoa&   AS  & ASM&016\\
-%     Andorra& AD  & AND   &020\\
-%     Angola& AO  & AGO&024\\
-%     \hline
-% \end{tabular}
-
 \newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
 \setlist[itemize]{nosep, leftmargin=*, before=\vspace{-0.5\baselineskip}, after=\vspace{-0.5\baselineskip}}
 
-\begin{table}[ht]
+\begin{table}[h!]
     \renewcommand{\arraystretch}{1} % Увеличивает межстрочный интервал
     \setlength{\tabcolsep}{9pt}      % Отступы в ячейках
-    \fontsize{9}{12}\selectfont       % Размер шрифта + интерлиньяж
+    \fontsize{10    }{12}\selectfont       % Размер шрифта + интерлиньяж
     \centering
     \caption{Сравнительная таблица методов}
     \label{tab:balancing_schemes}
@@ -29,24 +13,51 @@
         \fontsize{12}{14}\selectfont\textbf{Схема} & \fontsize{12}{14}\selectfont\textbf{Достоинства} & \fontsize{12}{14}\selectfont\textbf{Недостатки} \\
         \hline
 
-        1. Пасивная на одном резистре & 
+        1. Пасивная балансировка & 
         \begin{itemize}
-            \item FIXME
+            \item Простота. Дешевизна. Малый размер.
         \end{itemize} & 
         \begin{itemize}
-            \item FIXME
+            \item Не балансируется в простое. 
         \end{itemize} \\
         \hline
 
-        2. Пассивная, шунтирующий резистор & 
+        2. Емкостная балансировка & 
         \begin{itemize}
-            \item FIXME
+            \item Высокая точность. Простота управления.
         \end{itemize} & 
         \begin{itemize}
-            \item FIXME
+            \item Низкая скорость балансировки. Большое количество ключей. Работа только с небольшим напряжением.
         \end{itemize} \\
         \hline
-       
+    
+        3. Дроссели & 
+        \begin{itemize}
+            \item Высокая скорость балансировки. Высокий КПД(порядка 95\%)
+        \end{itemize} & 
+        \begin{itemize}
+            \item Сложное управление. 
+        \end{itemize} \\
+        \hline
+
+        % 4. Трансформаторы & 
+        % \begin{itemize}
+        %     \item Высокая скорость балансировки.
+        % \end{itemize} & 
+        % \begin{itemize}
+        %     \item Сложное управление.
+        % \end{itemize} \\
+        % \hline
+
+        5. {\'C}uk конвертеры & 
+        \begin{itemize}
+            \item Низкие потери. Простота конструкции.
+        \end{itemize} & 
+        \begin{itemize}
+            \item Сложное управление. Необходимость точного измерения напряжений.
+        \end{itemize} \\
+        \hline
+
         LAST. ............ & 
         \begin{itemize}
             \item FIXME
@@ -55,6 +66,6 @@
             \item FIXME
         \end{itemize} \\
         \hline
-       
     \end{tabularx}
 \end{table}
+
